@@ -1,0 +1,41 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域-->
+<h3>添加新的接口用例(*为必填，其他为非必填)</h3>
+<form action="{{ url_for('add_entry') }}" method=post class="add-entry jumbotron">
+      <dl>
+		<div class="input-group">
+			<dt>*接口名称:
+			<dd><input class="form-control" type=text size=30 name=url_name placeholder="如：学历简版" style="margin-bottom:15px;margin-left:30px">
+		</div>
+		<div class="input-group">
+			<dt>*url:
+			<dd><input class="form-control" type=text size=30 name=url placeholder="如：/data-server/test123" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>*method:
+			<dd><input class="form-control" type=text size=30 name=method placeholder="get/post" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>*从数据库中取的参数:
+			<dd><input class="form-control" type=text size=30 name=params_from_sql placeholder="如:name,cid" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>type:
+			<dd><input class="form-control" type=text size=30 name=type placeholder="如:123" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>*需要md5加密的参数:
+			<dd><input class="form-control" type=text size=30 name=md5_params placeholder="如：name,cid,mobile" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>*url中传递的参数:
+			<dd><input class="form-control" type=text size=30 name=url_params placeholder="如:name,cid" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+		<div class="input-group">
+			<dt>缓存表:
+			<dd><input class="form-control" type=text size=30 name=cache_table placeholder="如：test.api_list" style="margin-bottom:15px;margin-left:30px;">
+		</div>
+        <dd style="margin-top:5px;"><input class="button button-glow button-rounded button-raised button-primary" type=submit value="确定">
+      </dl>
+</form>
+{% endblock %}

@@ -1,0 +1,470 @@
+2018-07-02 10:55:29,006 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-02 10:55:29,085 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-02 10:55:29,085 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (4L, u'\u5b66\u5386\u7b80\u72483', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (5L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (6L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (7L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (8L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (9L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (10L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (11L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (12L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (13L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'))
+2018-07-02 10:55:29,460 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-02 10:55:29,523 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-02 10:55:29,523 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (4L, u'\u5b66\u5386\u7b80\u72483', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (5L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (6L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (7L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (8L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (9L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (10L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (11L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (12L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (13L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'))
+2018-07-02 10:55:32,273 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:32,273 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:55:32,352 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:32,354 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:32,354 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:55:32,354 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:32,362 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:55:35,362 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:35,362 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:55:35,513 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:35,513 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:35,513 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:55:35,513 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:35,523 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:55:37,183 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:37,184 - Flask - INFO - 当前展示第2页数据
+2018-07-02 10:55:37,244 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:37,244 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:37,244 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 10:55:37,244 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:37,263 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}]
+2018-07-02 10:55:39,612 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:39,614 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:55:39,693 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:39,694 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:39,694 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:55:39,694 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:39,703 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:55:41,273 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:41,273 - Flask - INFO - 当前展示第2页数据
+2018-07-02 10:55:41,404 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:41,404 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:41,404 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 10:55:41,404 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:41,414 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}]
+2018-07-02 10:55:42,542 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:55:42,543 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:55:42,602 - Flask - INFO - 总共有12个api
+2018-07-02 10:55:42,602 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:55:42,602 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:55:42,604 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:55:42,624 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:57:51,875 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:57:51,877 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:57:52,006 - Flask - INFO - 总共有12个api
+2018-07-02 10:57:52,006 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:57:52,007 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:57:52,007 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:57:52,036 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:58:04,256 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:58:04,256 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:58:04,657 - Flask - INFO - 总共有12个api
+2018-07-02 10:58:04,657 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:58:04,657 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:58:04,657 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:58:04,717 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:58:35,526 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:58:35,526 - Flask - INFO - 当前展示第2页数据
+2018-07-02 10:58:35,657 - Flask - INFO - 总共有12个api
+2018-07-02 10:58:35,658 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:58:35,658 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 10:58:35,658 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:58:35,677 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}]
+2018-07-02 10:58:37,947 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:58:37,947 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:58:38,058 - Flask - INFO - 总共有12个api
+2018-07-02 10:58:38,058 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:58:38,058 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:58:38,058 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:58:38,078 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:58:41,707 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 10:58:43,717 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:58:43,717 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:58:43,838 - Flask - INFO - 总共有12个api
+2018-07-02 10:58:43,838 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:58:43,838 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:58:43,838 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:58:43,858 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:59:45,918 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:59:45,918 - Flask - INFO - 当前展示第2页数据
+2018-07-02 10:59:46,029 - Flask - INFO - 总共有12个api
+2018-07-02 10:59:46,029 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:59:46,029 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 10:59:46,029 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:59:46,049 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}]
+2018-07-02 10:59:47,309 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:59:47,309 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:59:47,448 - Flask - INFO - 总共有12个api
+2018-07-02 10:59:47,450 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:59:47,450 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:59:47,450 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:59:47,469 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:59:49,749 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 10:59:51,688 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:59:51,688 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:59:51,789 - Flask - INFO - 总共有12个api
+2018-07-02 10:59:51,789 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:59:51,789 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:59:51,789 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:59:51,809 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:59:52,489 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 10:59:55,638 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:59:55,638 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:59:55,749 - Flask - INFO - 总共有12个api
+2018-07-02 10:59:55,749 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:59:55,749 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:59:55,749 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:59:55,769 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 10:59:57,509 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 10:59:59,640 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 10:59:59,640 - Flask - INFO - 当前展示第1页数据
+2018-07-02 10:59:59,750 - Flask - INFO - 总共有12个api
+2018-07-02 10:59:59,750 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 10:59:59,750 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 10:59:59,750 - Flask - INFO - ===============应分为2页=============
+2018-07-02 10:59:59,769 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:00:01,079 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:00:21,549 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 11:00:21,551 - Flask - INFO - 当前展示第1页数据
+2018-07-02 11:00:21,650 - Flask - INFO - 总共有12个api
+2018-07-02 11:00:21,650 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 11:00:21,650 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 11:00:21,650 - Flask - INFO - ===============应分为2页=============
+2018-07-02 11:00:21,680 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:00:22,650 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 11:00:23,440 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 11:00:23,440 - Flask - INFO - 当前展示第1页数据
+2018-07-02 11:00:23,509 - Flask - INFO - 总共有12个api
+2018-07-02 11:00:23,509 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 11:00:23,509 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 11:00:23,509 - Flask - INFO - ===============应分为2页=============
+2018-07-02 11:00:23,529 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:00:24,410 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:00:25,299 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 11:00:25,700 - Flask - INFO - 来到了主界面===========================
+2018-07-02 11:00:27,470 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:00:31,259 - Flask - INFO - 来到了主界面===========================
+2018-07-02 11:00:32,579 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:21:36,644 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:22:14,947 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:22:46,352 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:23:41,390 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:23:53,994 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:25:59,286 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:26:13,217 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:26:13,914 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:28:16,484 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 11:28:16,484 - Flask - INFO - 当前展示第1页数据
+2018-07-02 11:28:16,605 - Flask - INFO - 总共有12个api
+2018-07-02 11:28:16,607 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 11:28:16,607 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 11:28:16,607 - Flask - INFO - ===============应分为2页=============
+2018-07-02 11:28:16,625 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:28:17,724 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:32:46,739 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:33:59,158 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:35:04,904 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:37:28,253 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:37:55,194 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:38:32,653 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:38:40,446 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:39:00,655 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:39:35,911 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:45:09,628 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:45:18,388 - Flask - INFO - 来到了主界面===========================
+2018-07-02 11:45:22,986 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 11:45:24,661 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 11:45:24,661 - Flask - INFO - 当前展示第1页数据
+2018-07-02 11:45:24,980 - Flask - INFO - 总共有12个api
+2018-07-02 11:45:24,980 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 11:45:24,980 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 11:45:24,980 - Flask - INFO - ===============应分为2页=============
+2018-07-02 11:45:25,036 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:45:28,500 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:45:30,888 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 11:45:30,888 - Flask - INFO - 当前展示第1页数据
+2018-07-02 11:45:31,144 - Flask - INFO - 总共有12个api
+2018-07-02 11:45:31,144 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 11:45:31,145 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 11:45:31,145 - Flask - INFO - ===============应分为2页=============
+2018-07-02 11:45:31,190 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 11:45:33,888 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:57:09,167 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:57:29,937 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:57:39,387 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:57:55,826 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:58:15,447 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:58:22,815 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 11:58:29,305 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:21:20,061 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:21:20,834 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:21:20,834 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:21:20,892 - Flask - INFO - 总共有12个api
+2018-07-02 12:21:20,892 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:21:20,892 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:21:20,894 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:21:20,901 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:21:21,704 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:22:35,138 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:22:59,529 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:23:02,029 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:23:22,341 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:23:24,743 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:23:56,257 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:23:56,257 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:23:56,296 - Flask - INFO - 总共有12个api
+2018-07-02 12:23:56,296 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:23:56,298 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:23:56,298 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:23:56,305 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:23:59,256 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:24:27,996 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:24:47,413 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:24:57,526 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:25:45,632 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:27:06,006 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:28:18,539 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:35:28,055 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:36:13,096 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:36:49,437 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:37:02,964 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:37:18,171 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:37:28,897 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:39:14,801 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:39:31,130 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:41:30,785 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:41:57,059 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:42:30,517 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:42:46,411 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:42:56,457 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:42:56,460 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:42:56,506 - Flask - INFO - 总共有12个api
+2018-07-02 12:42:56,506 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:42:56,506 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:42:56,506 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:42:56,515 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:42:57,266 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:42:57,948 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:42:57,948 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:42:57,984 - Flask - INFO - 总共有12个api
+2018-07-02 12:42:57,984 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:42:57,984 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:42:57,984 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:42:57,993 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:42:58,598 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:43:00,539 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:43:00,539 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:43:00,578 - Flask - INFO - 总共有12个api
+2018-07-02 12:43:00,578 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:43:00,579 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:43:00,579 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:43:00,592 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:43:01,592 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:43:35,454 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:43:49,411 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:44:23,213 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:44:54,980 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:45:12,611 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:45:12,611 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:45:12,651 - Flask - INFO - 总共有12个api
+2018-07-02 12:45:12,651 - Flask - INFO - (0.19999999999999996, 1.0)
+2018-07-02 12:45:12,653 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:45:12,653 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:45:12,661 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:45:13,469 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:46:43,540 - Flask - INFO - 来到了主界面===========================
+2018-07-02 12:46:48,118 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:46:48,118 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:46:48,154 - Flask - INFO - 总共有13个api
+2018-07-02 12:46:48,154 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:46:48,154 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:46:48,154 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:46:48,161 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:46:49,815 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:46:49,816 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:46:49,855 - Flask - INFO - 总共有13个api
+2018-07-02 12:46:49,855 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:46:49,855 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:46:49,857 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:46:49,884 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:46:50,578 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:46:50,579 - Flask - INFO - 当前展示第2页数据
+2018-07-02 12:46:50,618 - Flask - INFO - 总共有13个api
+2018-07-02 12:46:50,618 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:46:50,618 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 12:46:50,618 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:46:50,627 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}, {'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-02 12:46:53,142 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:46:53,144 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:46:53,184 - Flask - INFO - 总共有13个api
+2018-07-02 12:46:53,184 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:46:53,184 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:46:53,184 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:46:53,194 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:46:56,930 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:47:00,463 - Flask - INFO - 来到了主界面===========================
+2018-07-02 12:47:01,612 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:47:02,565 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:02,565 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:02,601 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:02,601 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:02,601 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:02,601 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:02,608 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:29,552 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:47:30,701 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:30,701 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:30,744 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:30,744 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:30,746 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:30,746 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:30,753 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:36,816 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:36,816 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:36,855 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:36,855 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:36,855 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:36,855 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:36,884 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:37,563 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:37,563 - Flask - INFO - 当前展示第2页数据
+2018-07-02 12:47:37,624 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:37,624 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:37,625 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 12:47:37,625 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:37,635 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}, {'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-02 12:47:41,480 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:47:42,493 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:42,493 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:42,533 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:42,533 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:42,535 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:42,535 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:42,542 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:44,678 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:47:45,390 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:45,391 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:45,434 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:45,434 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:45,434 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:45,434 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:45,443 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:47,338 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:47:59,217 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:47:59,217 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:47:59,266 - Flask - INFO - 总共有13个api
+2018-07-02 12:47:59,266 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:47:59,266 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:47:59,266 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:47:59,276 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:47:59,808 - Flask - INFO - 来到了主界面===========================
+2018-07-02 12:48:08,407 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:48:09,926 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:09,927 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:09,961 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:09,963 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:09,963 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:09,963 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:09,970 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:48:24,266 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:48:26,484 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:26,484 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:26,565 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:26,565 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:26,566 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:26,566 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:26,586 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:48:31,888 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:31,888 - Flask - INFO - 当前展示第2页数据
+2018-07-02 12:48:31,928 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:31,930 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:31,930 - Flask - INFO - ================当前的页数为2=========
+2018-07-02 12:48:31,930 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:31,937 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 12L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 13L}, {'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-02 12:48:33,884 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:33,884 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:33,944 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:33,946 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:33,946 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:33,946 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:33,954 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:48:49,029 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:48:49,907 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:49,907 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:49,954 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:49,954 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:49,956 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:49,956 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:49,966 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:48:50,944 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:48:53,029 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:53,029 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:53,072 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:53,072 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:53,072 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:53,072 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:53,082 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:48:55,918 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:48:57,456 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:48:57,456 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:48:57,493 - Flask - INFO - 总共有13个api
+2018-07-02 12:48:57,493 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:48:57,493 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:48:57,493 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:48:57,500 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:50:49,957 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:50:51,450 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:50:52,148 - Flask - INFO - 来到了主界面===========================
+2018-07-02 12:50:52,999 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:50:53,496 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:50:53,496 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:50:53,532 - Flask - INFO - 总共有13个api
+2018-07-02 12:50:53,532 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:50:53,532 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:50:53,532 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:50:53,540 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:50:54,217 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:50:56,394 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:50:56,395 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:50:56,434 - Flask - INFO - 总共有13个api
+2018-07-02 12:50:56,434 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:50:56,434 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:50:56,434 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:50:56,444 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:50:57,193 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:50:57,782 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:50:57,782 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:50:57,821 - Flask - INFO - 总共有13个api
+2018-07-02 12:50:57,821 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:50:57,821 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:50:57,822 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:50:57,828 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:51:00,114 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-02 12:51:07,301 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:51:07,302 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:51:07,351 - Flask - INFO - 总共有13个api
+2018-07-02 12:51:07,351 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:51:07,351 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:51:07,351 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:51:07,359 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:51:09,267 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:51:10,447 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:51:10,447 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:51:10,483 - Flask - INFO - 总共有13个api
+2018-07-02 12:51:10,483 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:51:10,483 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:51:10,483 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:51:10,492 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:51:17,269 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:51:18,144 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:51:18,144 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:51:18,184 - Flask - INFO - 总共有13个api
+2018-07-02 12:51:18,184 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:51:18,186 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:51:18,186 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:51:18,193 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]
+2018-07-02 12:51:34,621 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-02 12:51:35,381 - Flask - INFO - 来到了start_test页面=========================
+2018-07-02 12:51:35,381 - Flask - INFO - 当前展示第1页数据
+2018-07-02 12:51:35,428 - Flask - INFO - 总共有13个api
+2018-07-02 12:51:35,428 - Flask - INFO - (0.30000000000000004, 1.0)
+2018-07-02 12:51:35,428 - Flask - INFO - ================当前的页数为1=========
+2018-07-02 12:51:35,428 - Flask - INFO - ===============应分为2页=============
+2018-07-02 12:51:35,437 - Flask - INFO - [{'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72483', 'id': 4L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 5L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 6L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 7L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 8L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 9L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 10L}, {'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 11L}]

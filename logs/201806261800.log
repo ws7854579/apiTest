@@ -1,0 +1,13 @@
+2018-06-26 18:00:00,244 - testlog - INFO - 正在获取apilist===============================================
+2018-06-26 18:00:00,375 - testlog - INFO - 已经获取到apilist并返回=========================:[(1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (3L, u'test1', u'/data-server/ssw', u'post', u'name,cid', u'1111', u'name,cid,phone', u'name,cid', u'zx_user_history')]
+2018-06-26 18:00:00,375 - testlog - INFO - []
+2018-06-26 18:00:00,799 - testlog - INFO - 正在获取apilist===============================================
+2018-06-26 18:00:00,799 - testlog - INFO - 正在获取apilist===============================================
+2018-06-26 18:00:00,861 - testlog - INFO - 已经获取到apilist并返回=========================:[(1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (3L, u'test1', u'/data-server/ssw', u'post', u'name,cid', u'1111', u'name,cid,phone', u'name,cid', u'zx_user_history')]
+2018-06-26 18:00:00,861 - testlog - INFO - 已经获取到apilist并返回=========================:[(1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data'), (3L, u'test1', u'/data-server/ssw', u'post', u'name,cid', u'1111', u'name,cid,phone', u'name,cid', u'zx_user_history')]
+2018-06-26 18:00:00,861 - testlog - INFO - []
+2018-06-26 18:00:00,861 - testlog - INFO - []
+2018-06-26 18:00:09,201 - testlog - INFO - 正在初始化当前测试用例
+2018-06-26 18:00:09,201 - testlog - INFO - 正在初始化当前测试用例
+2018-06-26 18:00:09,201 - testlog - INFO - {'account': 'apisunsuwei', 'reqId': '1234', 'reqTid': '1234'}
+2018-06-26 18:00:09,201 - testlog - INFO - {'account': 'apisunsuwei', 'reqId': '1234', 'reqTid': '1234'}

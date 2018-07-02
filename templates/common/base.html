@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<title>API test</title>
+		<link rel="icon" href="{{url_for('static',filename='images/favicon.ico')}}">
+		{% block css %}
+		<link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet"/>
+		<link href="{{url_for('static',filename='css/bootstrap-theme.min.css')}}" rel="stylesheet"/>
+		<link href="{{ url_for('static', filename='css/offcanvas.css') }}" rel="stylesheet">
+		<link href="{{url_for('static',filename='css/button_style.css')}}" rel="stylesheet">
+		<link href="{{url_for('static',filename='css/bootstrap-select.min.css')}}" rel="stylesheet" />
+		{% endblock %}
+		<style type="text/css">
+		.input-group{font-family:STSong;font-size:16px}
+		</style>
+	</head>
+	<body>
+		{% include "common/header.html" %}
+		<div class="container" style="margin-top:70px;">
+			<div class="row row-offcanvas row-offcanvas-right">
+			{% block content %}
+			
+			{% endblock %}
+			</div>
+			{% include "common/footer.html" %}
+		</div>
+		
+		{% block js %}
+		<script type="text/javascript" src="{{url_for('static',filename='js/jquery.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap-select.min.js')}}"></script>
+		<script>
+		$('.navbar-nav').find('a').each(function () {
+            if (this.href == document.location.href || document.location.href.search(this.href) >= 0) {
+                $(this).parent().addClass('active'); // this.className = 'active';
+            }
+        });
+		</script>
+		{% endblock %}
+	</body>
+</html>

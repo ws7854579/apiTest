@@ -1,0 +1,16 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}
+<div class="jumbotron">
+  <h2>Login</h2>
+  {% if error %}<p class=error><strong>Error:</strong> {{ error }}{% endif %}
+  <form action="{{ url_for('login') }}" method=post>
+    <dl>
+      <dt>Username:
+      <dd><input class="form-control" type=text name=username style="margin-bottom:20px;width:200px;">
+      <dt>Password:
+      <dd><input class="form-control" type=password name=password style="width:200px">
+      <dd><input class = 'button button-glow button-rounded button-raised button-primary 'type=submit value=Login style="margin-top:20px;">
+    </dl>
+  </form>
+ </div>
+{% endblock %}
