@@ -111,7 +111,7 @@ def start():
     # suite = unittest.TestLoader().loadTestsFromTestCase(MyTestSuite)
     # suite = unittest.TestSuite([suite])
     # unittest.TextTestRunner(verbosity=2).run(suite)
-    report_path = os.path.dirname(os.path.abspath('.')) + '/api_flask/report/'
+    report_path = os.path.dirname(os.path.abspath('.')) + '/apiTest/report/'
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
     HtmlFile = report_path + now + 'HTMLtemplate.html'
     fp = file(HtmlFile, 'wb')
