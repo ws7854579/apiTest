@@ -1,5 +1,8 @@
 # apiTest
-2018/07/02--sunsuwei
+2018/07/02--sunsuwei</br>
+1、前端使用了bootstrap，后端使用了python的flask框架，接口测试使用了requests</br>
+2、数据库使用的mysql，每个缓存表都不一样，单独建了一个api_list表
+
 ### The first commit
 1、点击开始测试可以产生测试报告并发送邮件</br>
 2、可以查看已存在的接口list</br>
