@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 import MySQLdb
 from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash
-from main import MyTestSuite
+from main import MyTestSuite_1,MyTestSuite_2
 import unittest
 from logger import Logger
 import method
@@ -89,10 +89,10 @@ def start_test():
     limit_start = (int(p)-1)*10
     page_dic = list(range(1,pageNum+1))
     cur = g.db.cursor()
-    sql = 'select id,url_name,url from api_list limit {0},10'.format(limit_start)
+    sql = 'select id,url_name,url,cache_table from api_list limit {0},10'.format(limit_start)
     #cur.execute('select url_name,url from api_list order by id desc')
     cur.execute(sql)
-    listApis = [dict(id=row[0],url_name=row[1],url=row[2]) for row in cur.fetchall()]
+    listApis = [dict(id=row[0],url_name=row[1],url=row[2],cache_table=row[3]) for row in cur.fetchall()]
     mylogger.info(listApis)
     return render_template('start_test.html',listApis=listApis,page_dic=page_dic,p=int(p))
 
@@ -115,7 +115,9 @@ def start():
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
     HtmlFile = report_path + now + 'HTMLtemplate.html'
     fp = file(HtmlFile, 'wb')
-    suite = unittest.TestLoader().loadTestsFromTestCase(MyTestSuite)
+    suite1 = unittest.TestLoader().loadTestsFromTestCase(MyTestSuite_1)
+    suite2 = unittest.TestLoader().loadTestsFromTestCase(MyTestSuite_2)
+    suite = unittest.TestSuite([suite1, suite2])
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"测试报告", description=u"用例测试情况")
     runner.run(suite)
     fp.close()

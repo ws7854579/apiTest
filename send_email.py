@@ -39,7 +39,7 @@ def send_mail(file_report):
 
 def new_report(report_path):
     dirs = os.listdir(report_path)
-    dirs.sort(reverse=False)
+    dirs.sort(reverse=True)
     newreportname = dirs[0]
     logger.info('The new report name:%s'%newreportname)
     file_new = os.path.join(report_path,newreportname)

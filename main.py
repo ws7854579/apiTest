@@ -13,27 +13,29 @@ from ddt import ddt,data,unpack
 mylogger = Logger('testlog').getlog()
 
 dataTest = method.get_api_list()
-mylogger.info(dataTest)
 @ddt
-class MyTestSuite(unittest.TestCase):
+class MyTestSuite_1(unittest.TestCase):
+    @classmethod
     def setUp(self):
         mylogger.info('正在初始化当前测试用例')
+        mylogger.info(dataTest)
         self.account = 'apisunsuwei'
         self.privatekey = '9355d0e7b4c67233'
         self.reqTid = '1234'
         self.reqId = '1234'
         self.md5_base_dict = {'account':self.account,'reqTid':self.reqTid,'reqId':self.reqId}
-        mylogger.info(self.md5_base_dict)
 
     @data(*dataTest)
     @unpack
-    def test_cache(self,id,url_name,url,request_method,params_from_sql,type,md5_params,url_params,cache_table):
+    def test_cache(self,id,url_name,url,request_method,params_from_sql,type,md5_params,url_params,cache_table,expire_date):
         mylogger.info('正在执行的是第%s个接口:%s，查询缓存'%(id,url_name))
         #flag = 0
-        if cache_table:
+        if cache_table != '':
             sql_data = method.get_cache(cache_table,params_from_sql)
         else:
             mylogger.info('无缓存表。。。')
+            return
+        mylogger.info(sql_data)
         md5_fn_dict = {}
         md5List = md5_params.split(',')
         md5_dict = dict(self.md5_base_dict.items()+sql_data.items())
@@ -65,15 +67,39 @@ class MyTestSuite(unittest.TestCase):
         mylogger.info('返回码statusCode为：================%s'%statusCode)
         self.assertEqual(200,statusCode,'验证失败......返回码不对')
 
-    #测试访问上游数据源
+    @classmethod
+    def tearDown(self):
+        pass
+
+@ddt
+class MyTestSuite_2(unittest.TestCase):
+    @classmethod
+    def setUp(self):
+        mylogger.info('正在初始化当前测试用例')
+        mylogger.info(dataTest)
+        self.account = 'apisunsuwei'
+        self.privatekey = '9355d0e7b4c67233'
+        self.reqTid = '1234'
+        self.reqId = '1234'
+        self.md5_base_dict = {'account':self.account,'reqTid':self.reqTid,'reqId':self.reqId}
+
+        # 测试访问上游数据源
     @data(*dataTest)
     @unpack
-    def test_data_source(self,id,url_name,url,request_method,params_from_sql,type,md5_params,url_params,cache_table):
+    def test_data_source(self, id, url_name, url, request_method, params_from_sql, type, md5_params, url_params,
+                         cache_table, expire_date):
         mylogger.info('正在执行的是第%s个接口:%s，查询上游数据源' % (id, url_name))
         # flag = 0
+        sql_data = {}
         if cache_table:
-            #从cache_table拿取已过期的数据，暂时未写该功能
-            sql_data = method.get_noCache(cache_table, params_from_sql,cache_date='2018-03-01')
+            # 从cache_table拿取已过期的数据
+            if expire_date:
+                new_date = method.date_trans(expire_date)
+                if new_date:
+                    mylogger.info('用于查询有效期外数据的日期为：%s'%new_date)
+                    sql_data = method.get_noCache(cache_table, params_from_sql, new_date)
+                else:
+                    return
         else:
             mylogger.info('无缓存表。。。')
         md5_fn_dict = {}
@@ -107,8 +133,7 @@ class MyTestSuite(unittest.TestCase):
         mylogger.info('返回码statusCode为：================%s' % statusCode)
         self.assertEqual(200, statusCode, '验证失败......返回码不对')
 
-
-
+    @classmethod
     def tearDown(self):
         pass
 

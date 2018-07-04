@@ -1,7 +1,7 @@
 {% extends "common/base.html" %}<!--继承基础模板-->
 {% block content %}<!--自定义模板区域-->
 <form action="{{ url_for('start') }}" method=get class=add-entry>
-	<a href="#" class="button button-glow button-rounded button-raised button-primary" style="float:right;margin-right:150px">开始测试</a>
+	<a href="{{url_for('start')}}" class="button button-glow button-rounded button-raised button-primary" style="float:right;margin-right:150px">开始测试</a>
 </form>
 <div class=main_center>
 	<div style="margin-bottom:20px;">
@@ -17,7 +17,7 @@
 	<h2 style="margin-top:10px;">已添加的接口</h2>
 	<ul class="list-group">
   {% for listApi in listApis %}
-		<li class="list-group-item"><span>{{ listApi.id }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>{{ listApi.url_name }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ listApi.url }}
+		<li class="list-group-item"><span>{{ listApi.id }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>{{ listApi.url_name }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ listApi.url }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ listApi.cache_table }}
   {% else %}
     <li><em>现在还没有添加接口</em>
   {% endfor %}
