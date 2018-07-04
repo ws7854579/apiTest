@@ -14,4 +14,5 @@
 ### 2018/7/4--sunsuwei
 修复了之前的一些bug导致用例无法执行</br>
 ### 2018/7/4--sunsuwei
-增加了查询上游数据源的功能，api_list表添加了一个缓存表有效期字段：expire_date
+增加了查询上游数据源的功能，api_list表添加了一个缓存表有效期字段：expire_date </br>
+增加了查看测试历史的功能，新增test_history表
