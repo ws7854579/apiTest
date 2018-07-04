@@ -1,4 +1,28 @@
 {% extends "common/base.html" %}<!--继承基础模板-->
 {% block content %}<!--自定义模板区域-->
-
+<h2>测试历史记录</h2>
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="font-family:Microsoft YaHei">ID</th>
+		<th style="font-family:Microsoft YaHei">测试时间</th>
+		<th style="font-family:Microsoft YaHei">Pass数量</th>
+		<th style="font-family:Microsoft YaHei">Fail数量</th>
+		<th style="font-family:Microsoft YaHei">测试结果</th>
+		<th style="font-family:Microsoft YaHei">测试报告</th>
+	</tr>
+	</thead>
+	<tbody>
+	{%for test in testList%}
+		<tr>	
+			<td style="font-family:Microsoft YaHei">{{test.history_id}}</td>	
+			<td style="font-family:Microsoft YaHei">{{test.date}}</td>
+			<td style="font-family:Microsoft YaHei">{{test.pass_num}}</td>
+			<td style="font-family:Microsoft YaHei">{{test.fail_num}}</td>
+			<td style="font-family:Microsoft YaHei">{{test.status}}</td>
+			<td style="font-family:Microsoft YaHei"><a href="#">查看报告</a></td>
+		</tr>
+	{%endfor%}
+	</tbody>
+</table>
 {% endblock %}

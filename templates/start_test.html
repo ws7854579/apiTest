@@ -17,7 +17,7 @@
 	<h2 style="margin-top:10px;">已添加的接口</h2>
 	<ul class="list-group">
   {% for listApi in listApis %}
-		<li class="list-group-item"><span>{{ listApi.id }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>{{ listApi.url_name }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ listApi.url }}&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp{{ listApi.cache_table }}
+		<li class="list-group-item"><span style="display:inline-block;width:50px;vertical-align: top;margin-right:20px;">{{ listApi.id }}</span><span style="display:inline-block;width:100px;vertical-align: top;margin-right:20px;">{{ listApi.url_name }}</span><span style="display:inline-block;width:300px;vertical-align: top;margin-right:20px;">{{ listApi.url }}</span><span style="display:inline-block;width:300px;vertical-align: top;margin-right:20px;">{{ listApi.cache_table }}</span>
   {% else %}
     <li><em>现在还没有添加接口</em>
   {% endfor %}

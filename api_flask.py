@@ -66,7 +66,15 @@ def test_history():
     mylogger.info('来到了测试历史记录页面===================')
     if not session.get('logged_in'):
         return redirect(url_for('login'))
-    return render_template('test_history.html')
+    history = method.get_history_list()
+    testList = []
+    a = 1
+    for row in history:
+        testList.append(dict(date=row[0], status=row[1], pass_num=row[2], fail_num=row[3], report=row[4],history_id =a))
+        a += 1
+    #testList = [dict(date=row[0], status=row[1], pass_num=row[2], fail_num=row[3], report=row[4]) for row in history]
+    mylogger.info(testList)
+    return render_template('test_history.html',testList=testList)
 
 @app.route('/start_test',methods=['POST','GET'])
 def start_test():
@@ -119,10 +127,16 @@ def start():
     suite2 = unittest.TestLoader().loadTestsFromTestCase(MyTestSuite_2)
     suite = unittest.TestSuite([suite1, suite2])
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"测试报告", description=u"用例测试情况")
-    runner.run(suite)
+    test_result = runner.run(suite)
+    all_num = test_result.testsRun
+    fail_num = len(test_result.failures)
+    # for case, reason in test_result.failures:
+    #     print case.id()
+    #     print reason
     fp.close()
     report = se.new_report(report_path)
     se.send_mail(report)
+    method.insert_to_table(all_num,fail_num,report)
     return render_template('main.html')
 
 

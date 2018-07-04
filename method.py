@@ -2,7 +2,7 @@
 import xlrd,xlwt,hashlib
 import MySQLdb
 from logger import Logger
-import datetime
+import datetime,time
 
 mylogger = Logger('Method_Log').getlog()
 
@@ -160,6 +160,7 @@ def get_page():
     apiNum = result[0]
     return apiNum
 
+#将日期转化为缓存外日期
 def date_trans(date):
     today = datetime.date.today()
     today_str = str(today).split('-')
@@ -197,3 +198,31 @@ def date_trans(date):
         expire_date = None
         return expire_date
 
+#将测试结果存到表里
+def insert_to_table(all_num,fail_num,new_report_path):
+    history_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+    pass_num = all_num - fail_num
+    if fail_num == 0:
+        result = 'Pass'
+    else:
+        result = 'Failed'
+    sql = 'insert into test_history (date,status,pass_num,fail_num,report) values ("%s","%s","%s","%s","%s")'%(history_time,result,pass_num,fail_num,new_report_path)
+    mylogger.info(sql)
+    db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
+    cur = db.cursor()
+    try:
+        cur.execute(sql)
+        db.commit()
+    except:
+        mylogger.info('插入数据库失败。。。')
+        return
+    mylogger.info('插入数据库结束，插入成功！')
+
+#从history表里读取数据
+def get_history_list():
+    sql = 'select date,status,pass_num,fail_num,report from test.test_history order by date desc'
+    db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
+    cur = db.cursor()
+    cur.execute(sql)
+    result = cur.fetchall()
+    return result
