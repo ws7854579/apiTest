@@ -95,13 +95,18 @@ class MyTestSuite_2(unittest.TestCase):
             # 从cache_table拿取已过期的数据
             if expire_date:
                 new_date = method.date_trans(expire_date)
-                if new_date:
+                mylogger.info('new_date:%s'%new_date)
+                if new_date != None:
                     mylogger.info('用于查询有效期外数据的日期为：%s'%new_date)
                     sql_data = method.get_noCache(cache_table, params_from_sql, new_date)
                 else:
+                    mylogger.info('验证失败，查询缓存有效期日期格式不对')
+                    self.assertEqual(200, '', u'验证失败，查询缓存有效期日期格式不对')
                     return
         else:
-            mylogger.info('无缓存表。。。')
+            mylogger.info('无缓存表。。无法获取数据')
+            self.assertEqual(200,'',u'验证失败，无缓存表，无法获取数据')
+            return
         md5_fn_dict = {}
         md5List = md5_params.split(',')
         md5_dict = dict(self.md5_base_dict.items() + sql_data.items())

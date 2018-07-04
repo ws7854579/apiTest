@@ -1,0 +1,61 @@
+2018-07-04 11:27:53,770 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-04 11:27:53,816 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-04 11:27:54,190 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-04 11:27:54,273 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-04 11:27:57,381 - Flask - INFO - 来到了start_test页面=========================
+2018-07-04 11:27:57,381 - Flask - INFO - 获取到的select_value为：None
+2018-07-04 11:27:57,381 - Flask - INFO - 当前展示第1页数据
+2018-07-04 11:27:57,418 - Flask - INFO - 总共有3个api
+2018-07-04 11:27:57,426 - Flask - INFO - (0.3, 0.0)
+2018-07-04 11:27:57,426 - Flask - INFO - ================当前的页数为1=========
+2018-07-04 11:27:57,426 - Flask - INFO - ===============应分为1页=============
+2018-07-04 11:27:57,434 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-04 11:27:58,525 - Flask - INFO - 开始执行测试==================================
+2018-07-04 11:27:58,529 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,529 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,530 - testlog - INFO - 正在执行的是第1个接口:学历简版，查询缓存
+2018-07-04 11:27:58,530 - Method_Log - INFO - 正在从数据库中获取数据.......
+2018-07-04 11:27:58,562 - Method_Log - INFO - 正在从ds_edu.user_edu_data获取数据......
+2018-07-04 11:27:58,569 - Method_Log - INFO - 正在使用idt排序查询
+2018-07-04 11:27:58,579 - testlog - INFO - {u'name': u'\u4e30\u6d77\u5175', u'cid': u'422103197102276312'}
+2018-07-04 11:27:58,581 - testlog - INFO - md5排序后的值为：=============accountapisunsuweicid422103197102276312name丰海兵reqTid1234
+2018-07-04 11:27:58,582 - Method_Log - INFO - 正在进行md5加密
+2018-07-04 11:27:58,582 - testlog - INFO - 正在发送get请求:/data-service/edu/querydet
+2018-07-04 11:27:58,632 - testlog - INFO - 返回码statusCode为：================200
+2018-07-04 11:27:58,632 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,632 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,634 - testlog - INFO - 正在执行的是第2个接口:学历简版2，查询缓存
+2018-07-04 11:27:58,634 - Method_Log - INFO - 正在从数据库中获取数据.......
+2018-07-04 11:27:58,671 - Method_Log - INFO - 正在从ds_edu.user_edu_data获取数据......
+2018-07-04 11:27:58,677 - Method_Log - INFO - 正在使用idt排序查询
+2018-07-04 11:27:58,688 - testlog - INFO - {u'name': u'\u4e30\u6d77\u5175', u'cid': u'422103197102276312'}
+2018-07-04 11:27:58,690 - testlog - INFO - md5排序后的值为：=============accountapisunsuweicid422103197102276312name丰海兵reqTid1234
+2018-07-04 11:27:58,690 - Method_Log - INFO - 正在进行md5加密
+2018-07-04 11:27:58,690 - testlog - INFO - 正在发送get请求:/data-service/edu/querydet
+2018-07-04 11:27:58,753 - testlog - INFO - 返回码statusCode为：================200
+2018-07-04 11:27:58,755 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,755 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,755 - testlog - INFO - 正在执行的是第14个接口:运营商二次放号，查询缓存
+2018-07-04 11:27:58,755 - testlog - INFO - 无缓存表。。。
+2018-07-04 11:27:58,756 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,756 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,756 - testlog - INFO - 正在执行的是第1个接口:学历简版，查询上游数据源
+2018-07-04 11:27:58,756 - Method_Log - INFO - 存的有效期无效
+2018-07-04 11:27:58,756 - testlog - INFO - new_date:None
+2018-07-04 11:27:58,756 - testlog - INFO - 验证失败，无缓存表数据，无法测试该接口用例
+2018-07-04 11:27:58,757 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,759 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,759 - testlog - INFO - 正在执行的是第2个接口:学历简版2，查询上游数据源
+2018-07-04 11:27:58,759 - Method_Log - INFO - 存的有效期无效
+2018-07-04 11:27:58,759 - testlog - INFO - new_date:None
+2018-07-04 11:27:58,759 - testlog - INFO - 验证失败，无缓存表数据，无法测试该接口用例
+2018-07-04 11:27:58,760 - testlog - INFO - 正在初始化当前测试用例
+2018-07-04 11:27:58,762 - testlog - INFO - ((1L, u'\u5b66\u5386\u7b80\u7248', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (2L, u'\u5b66\u5386\u7b80\u72482', u'/data-service/edu/querydet', u'get', u'cid,name', u'7', u'account,cid,name,reqTid', u'cid,name,reqTid,account,sign', u'ds_edu.user_edu_data', u'30\u5929'), (14L, u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', u'/data-service/telecom/rephonenum', u'get', u'name,cid,mobile', u'456', u'mobile,reqTid,account', u'name,cid,mobile', u'', None))
+2018-07-04 11:27:58,763 - testlog - INFO - 正在执行的是第14个接口:运营商二次放号，查询上游数据源
+2018-07-04 11:27:58,763 - testlog - INFO - 无缓存表。。。
+2018-07-04 11:27:58,763 - testlog - INFO - md5排序后的值为：=============accountapisunsuweireqTid1234
+2018-07-04 11:27:58,763 - Method_Log - INFO - 正在进行md5加密
+2018-07-04 11:27:58,763 - testlog - INFO - 正在发送get请求:/data-service/telecom/rephonenum
+2018-07-04 11:27:58,789 - testlog - INFO - 返回码statusCode为：================200
+2018-07-04 11:27:58,892 - sendEmail - INFO - The new report name:2018-07-04-11_27_58HTMLtemplate.html
+2018-07-04 11:28:02,244 - sendEmail - INFO - Send email successful!

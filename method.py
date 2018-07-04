@@ -194,4 +194,6 @@ def date_trans(date):
         return expire_date
     else:
         mylogger.info('存的有效期无效')
+        expire_date = None
+        return expire_date
 
