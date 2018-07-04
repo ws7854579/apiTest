@@ -43,4 +43,5 @@ def new_report(report_path):
     newreportname = dirs[0]
     logger.info('The new report name:%s'%newreportname)
     file_new = os.path.join(report_path,newreportname)
+    logger.info('The return name is:%s'%file_new)
     return file_new

@@ -202,6 +202,8 @@ def date_trans(date):
 def insert_to_table(all_num,fail_num,new_report_path):
     history_time = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
     pass_num = all_num - fail_num
+    if '\\' in new_report_path:
+        new_report_path = new_report_path.replace("\\","/")
     if fail_num == 0:
         result = 'Pass'
     else:

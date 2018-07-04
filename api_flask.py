@@ -61,7 +61,7 @@ def main():
     entries = [dict(id=row[0], date=row[1], status=row[2], report=row[3]) for row in cur.fetchall()]
     return render_template('main.html',entries=entries)
 
-@app.route('/test_history')
+@app.route('/test_history',methods=['POST','GET'])
 def test_history():
     mylogger.info('来到了测试历史记录页面===================')
     if not session.get('logged_in'):
@@ -74,6 +74,7 @@ def test_history():
         a += 1
     #testList = [dict(date=row[0], status=row[1], pass_num=row[2], fail_num=row[3], report=row[4]) for row in history]
     mylogger.info(testList)
+    report_id = request.args.get('report_id','')
     return render_template('test_history.html',testList=testList)
 
 @app.route('/start_test',methods=['POST','GET'])
