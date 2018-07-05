@@ -221,8 +221,8 @@ def insert_to_table(all_num,fail_num,new_report_path):
     mylogger.info('插入数据库结束，插入成功！')
 
 #从history表里读取数据
-def get_history_list():
-    sql = 'select date,status,pass_num,fail_num,report from test.test_history order by date desc'
+def get_history_list(limit_start):
+    sql = 'select date,status,pass_num,fail_num,report from test.test_history order by date desc limit {0},10'.format(limit_start)
     db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
     cur = db.cursor()
     cur.execute(sql)

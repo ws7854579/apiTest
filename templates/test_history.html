@@ -25,4 +25,15 @@
 	{%endfor%}
 	</tbody>
 </table>
+<ul class="pagination navbar-nav">
+			<li><a href="/test_history?p={{p-1}}">&laquo;</a></li>
+		{% for num in page_num %}
+			{% if num == page_num %}
+			<li class="active"><a href="/test_history?p={{num}}">{{num}}</a></li>
+			{% else %}
+			<li><a href="/test_history?p={{num}}">{{num}}</a></li>
+			{%endif%}
+		{% endfor %}
+			<li><a href="/test_history?p={{p+1}}">&raquo;</a></li>
+	</ul>
 {% endblock %}

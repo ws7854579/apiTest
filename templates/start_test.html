@@ -3,7 +3,6 @@
 <form action="{{ url_for('start') }}" method=get class=add-entry>
 	<a href="{{url_for('start')}}" class="button button-glow button-rounded button-raised button-primary" style="float:right;margin-right:150px">开始测试</a>
 </form>
-<div class=main_center>
 	<div style="margin-bottom:20px;">
 		<p style="display:inline;">请选择使用的测试IP：</p>
 		<select class="selectpicker" name="selector_value">
@@ -13,7 +12,6 @@
 			<option value="online_en_6033" name="online_en_6033">192.168.60.33:8080</option>
 			<option value="online_en_6034" name="online_en_6034">192.168.60.34:8080</option>
 		</select>
-	</div>
 	<h2 style="margin-top:10px;">已添加的接口</h2>
 	<ul class="list-group">
   {% for listApi in listApis %}

@@ -66,16 +66,23 @@ def test_history():
     mylogger.info('来到了测试历史记录页面===================')
     if not session.get('logged_in'):
         return redirect(url_for('login'))
-    history = method.get_history_list()
+    p = request.args.get('p', '1')
+    limit_start = (int(p) - 1) * 10
+    history = method.get_history_list(limit_start)
     testList = []
     a = 1
     for row in history:
         testList.append(dict(date=row[0], status=row[1], pass_num=row[2], fail_num=row[3], report=row[4],history_id =a))
         a += 1
     #testList = [dict(date=row[0], status=row[1], pass_num=row[2], fail_num=row[3], report=row[4]) for row in history]
+    history_list = len(history)
+    page_sum_bf = float(history_list) / 10
+    page_sum_l = math.modf(page_sum_bf)
+    mylogger.info(page_sum_l)
+    pageNum = int(page_sum_l[1]) + 1
+    page_dic = list(range(1, pageNum + 1))
     mylogger.info(testList)
-    report_id = request.args.get('report_id','')
-    return render_template('test_history.html',testList=testList)
+    return render_template('test_history.html',testList=testList,page_num=page_dic,p=int(p))
 
 @app.route('/start_test',methods=['POST','GET'])
 def start_test():
@@ -88,7 +95,6 @@ def start_test():
     mylogger.info('当前展示第%s页数据'%p)
     apiNum = method.get_page()
     mylogger.info("总共有%s个api"%apiNum)
-    pageNum = 1
     page_sum_bf = float(apiNum)/10
     page_sum_l = math.modf(page_sum_bf)
     mylogger.info(page_sum_l)
@@ -138,7 +144,7 @@ def start():
     report = se.new_report(report_path)
     se.send_mail(report)
     method.insert_to_table(all_num,fail_num,report)
-    return render_template('main.html')
+    return redirect(url_for('test_history'))
 
 
 @app.route('/logout')
