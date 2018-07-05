@@ -146,6 +146,12 @@ def start():
     method.insert_to_table(all_num,fail_num,report)
     return redirect(url_for('test_history'))
 
+@app.route('/ready_to_start',methods=['GET'])
+def ready_to_start():
+    mylogger.info('来到了准备开始测试界面=========================')
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    return render_template('ready_to_start.html')
 
 @app.route('/logout')
 def logout():

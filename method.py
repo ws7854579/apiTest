@@ -222,6 +222,8 @@ def insert_to_table(all_num,fail_num,new_report_path):
 
 #从history表里读取数据
 def get_history_list(limit_start):
+    if limit_start < 0:
+        limit_start = 0
     sql = 'select date,status,pass_num,fail_num,report from test.test_history order by date desc limit {0},10'.format(limit_start)
     db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
     cur = db.cursor()

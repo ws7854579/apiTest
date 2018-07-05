@@ -1,0 +1,48 @@
+2018-07-05 13:59:45,648 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-05 13:59:45,736 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-05 13:59:46,453 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-05 13:59:46,503 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-05 13:59:49,690 - Flask - INFO - 来到了start_test页面=========================
+2018-07-05 13:59:49,691 - Flask - INFO - 获取到的select_value为：None
+2018-07-05 13:59:49,691 - Flask - INFO - 当前展示第1页数据
+2018-07-05 13:59:49,755 - Flask - INFO - 总共有3个api
+2018-07-05 13:59:49,762 - Flask - INFO - (0.3, 0.0)
+2018-07-05 13:59:49,763 - Flask - INFO - ================当前的页数为1=========
+2018-07-05 13:59:49,763 - Flask - INFO - ===============应分为1页=============
+2018-07-05 13:59:49,769 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-05 13:59:52,265 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 13:59:52,305 - Flask - INFO - (0.3, 0.0)
+2018-07-05 13:59:52,305 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]
+2018-07-05 13:59:53,480 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 13:59:53,520 - Flask - INFO - (0.3, 0.0)
+2018-07-05 13:59:53,520 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]
+2018-07-05 13:59:54,779 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 13:59:54,819 - Flask - INFO - (0.3, 0.0)
+2018-07-05 13:59:54,819 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]
+2018-07-05 14:00:00,066 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 14:00:00,105 - Flask - INFO - (0.3, 0.0)
+2018-07-05 14:00:00,105 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]
+2018-07-05 14:00:08,236 - Flask - INFO - 来到了start_test页面=========================
+2018-07-05 14:00:08,236 - Flask - INFO - 获取到的select_value为：None
+2018-07-05 14:00:08,236 - Flask - INFO - 当前展示第1页数据
+2018-07-05 14:00:08,276 - Flask - INFO - 总共有3个api
+2018-07-05 14:00:08,276 - Flask - INFO - (0.3, 0.0)
+2018-07-05 14:00:08,276 - Flask - INFO - ================当前的页数为1=========
+2018-07-05 14:00:08,276 - Flask - INFO - ===============应分为1页=============
+2018-07-05 14:00:08,282 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-05 14:00:09,265 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 14:00:09,303 - Flask - INFO - (0.3, 0.0)
+2018-07-05 14:00:09,303 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]
+2018-07-05 14:00:10,244 - Flask - INFO - 来到了主界面===========================
+2018-07-05 14:00:11,414 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-05 14:00:12,355 - Flask - INFO - 来到了start_test页面=========================
+2018-07-05 14:00:12,358 - Flask - INFO - 获取到的select_value为：None
+2018-07-05 14:00:12,358 - Flask - INFO - 当前展示第1页数据
+2018-07-05 14:00:12,398 - Flask - INFO - 总共有3个api
+2018-07-05 14:00:12,398 - Flask - INFO - (0.3, 0.0)
+2018-07-05 14:00:12,398 - Flask - INFO - ================当前的页数为1=========
+2018-07-05 14:00:12,398 - Flask - INFO - ===============应分为1页=============
+2018-07-05 14:00:12,414 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-05 14:00:13,000 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-05 14:00:13,042 - Flask - INFO - (0.3, 0.0)
+2018-07-05 14:00:13,042 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 3, 'fail_num': u'3'}]

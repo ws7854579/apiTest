@@ -1,18 +1,16 @@
 {% extends "common/base.html" %}<!--继承基础模板-->
 {% block content %}<!--自定义模板区域-->
-<form action="{{ url_for('start') }}" method=get class=add-entry>
-	<a href="{{url_for('start')}}" class="button button-glow button-rounded button-raised button-primary" style="float:right;margin-right:150px">开始测试</a>
-</form>
-	<div style="margin-bottom:20px;">
-		<p style="display:inline;">请选择使用的测试IP：</p>
-		<select class="selectpicker" name="selector_value">
-			<option value="test_environment_357180" name="test_environment_357180">192.168.100.35:7180</option>
-			<option value="test_environment_357280" name="test_environment_357280">192.168.100.35:7280</option>
-			<option value="test_environment_1117080" name="test_environment_1117080">192.168.100.111:7080</option>
-			<option value="online_en_6033" name="online_en_6033">192.168.60.33:8080</option>
-			<option value="online_en_6034" name="online_en_6034">192.168.60.34:8080</option>
-		</select>
-	<h2 style="margin-top:10px;">已添加的接口</h2>
+	<span style="float:left;font-size:1.2em;">接口名称:</span>
+	<div class="col-lg-3">
+	
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">搜索</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+	<div style="margin-top:50px;">
 	<ul class="list-group">
   {% for listApi in listApis %}
 		<li class="list-group-item"><span style="display:inline-block;width:50px;vertical-align: top;margin-right:20px;">{{ listApi.id }}</span><span style="display:inline-block;width:100px;vertical-align: top;margin-right:20px;">{{ listApi.url_name }}</span><span style="display:inline-block;width:300px;vertical-align: top;margin-right:20px;">{{ listApi.url }}</span><span style="display:inline-block;width:300px;vertical-align: top;margin-right:20px;">{{ listApi.cache_table }}</span>

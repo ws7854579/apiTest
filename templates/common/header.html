@@ -13,20 +13,9 @@
             <ul class="nav navbar-nav">
                 <li><a href="{{url_for('main')}}">主页</a></li>
 				<li><a href="{{url_for('test_history')}}">测试历史记录</a></li>
-                <li><a href="{{url_for('start_test')}}">开始测试</a></li>
+                <li><a href="{{url_for('start_test')}}">已添加接口</a></li>
 				<li><a href="{{url_for('add_api')}}">添加新接口</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">点这暂时没用<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
+				<li><a href="{{url_for('ready_to_start')}}">准备开始测试</a></li>
 				<li style="margin-left:400px">
 					{% if not session.logged_in %}
 					<a href="{{ url_for('login') }}">登录</a>

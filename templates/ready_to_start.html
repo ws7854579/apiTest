@@ -1,0 +1,41 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域-->
+<form action="{{ url_for('start') }}" method=get class=add-entry>
+	<a href="{{url_for('start')}}" class="button button-raised button-pill button-inverse" style="float:right;margin-right:150px">开始测试</a>
+</form>
+<div style="margin-left:100px;margin-right:150px;">
+<p style="display:inline;font-family:Microsoft YaHei">请选择使用的测试IP：</p>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked><span> http://192.168.100.35:7180<span>
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><span>http://192.168.100.35:7280<span>
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><span>http://192.168.100.111:7080</span>
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><span>http://192.168.60.33:8080</span>
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><span>http://192.168.60.34:8080</span>
+    </label>
+</div>
+<p style="display:inline;font-family:Microsoft YaHei">请选择启动测试时间：</p>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"><span>now</span>
+    </label>
+</div>
+</div>
+
+{% endblock %}
