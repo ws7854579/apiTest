@@ -1,0 +1,80 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域-->
+
+<div class="mock-title">
+<span style="float:left;font-size:1.2em;">接口URL:</span>
+	<div class="col-lg-3">	
+		<div class="input-group">
+			<input type="text" class="form-control">
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button">搜索</button>
+			</span>
+		</div><!-- /input-group -->
+	</div><!-- /.col-lg-6 -->
+	<a href="#" class="button button-raised button-pill button-inverse" data-toggle="modal" data-target="#myModal" style="float:right;margin-right:150px">新增</a>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="mbtn_add">新增</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="txt_departmentname">url名称</label>
+                        <input type="text" name="txt_departmentname" class="form-control" id="txt_departmentname" placeholder="url名称">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_parentdepartment">url访问路径</label>
+                        <input type="text" name="txt_parentdepartment" class="form-control" id="txt_parentdepartment" placeholder="访问路径">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_departmentlevel">参数请求格式</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_statu">post/get</label>
+                        <input type="text" name="txt_statu" class="form-control" id="txt_statu" placeholder="post/get">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">请求数据</label>
+                        <input type="text" name="txt_statu" class="form-control" id="apply_data" placeholder="请求数据">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    <button type="button" id="btn_submit" class="btn btn-primary" data-dismiss="modal">保存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="mock-body">
+<table class="table table-striped">
+	<thead>
+	<tr>
+		<th style="font-family:Microsoft YaHei">ID</th>
+		<th style="font-family:Microsoft YaHei">url名称</th>
+		<th style="font-family:Microsoft YaHei">url路径</th>
+		<th style="font-family:Microsoft YaHei">查看详情</th>
+		<th style="font-family:Microsoft YaHei">点击修改</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>	
+			<td style="font-family:Microsoft YaHei"></td>	
+			<td style="font-family:Microsoft YaHei"></td>
+			<td style="font-family:Microsoft YaHei"></td>
+			<td style="font-family:Microsoft YaHei"><a href="#">查看详情</a></td>
+			<td style="font-family:Microsoft YaHei"><a href="#">修改</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+{% endblock %}

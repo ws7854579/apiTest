@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 import MySQLdb
-from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash
+from flask import Flask,request,session,g,redirect,url_for,abort,render_template,flash,jsonify
 from main import MyTestSuite_1,MyTestSuite_2
 import unittest
 from logger import Logger
@@ -9,6 +9,7 @@ import send_email as se
 import time,os
 import HTMLTestRunner
 import math
+from flask_restful import Resource,Api
 
 
 mylogger = Logger('Flask').getlog()
@@ -22,6 +23,43 @@ PASSWORD = '123'
 
 app = Flask(__name__)
 app.config.from_object(__name__)
+api = Api(app)
+
+#restful start=========
+@app.route('/<path:path>', methods=['GET','POST'])
+def get_url(self,url):
+    mylogger.info('进入get_url')
+    mock_list_all = method.get_mock_list()
+    list_req_form = []
+    list_req_data = []
+    list_res_data = []
+    for api in mock_list_all:
+        if api['url'] == url:
+            list_req_form.append(api['req_form'])
+            list_req_data.append(api['req_data'])
+            list_res_data.append(api['res_data'])
+    #暂时用‘=’分割req_data
+    mylogger.info(list_req_data)
+    mylogger.info(list_res_data)
+    if request.method == 'GET':
+        for req in list_req_data:
+            par = req.split('=')[0]
+            par_data = req.split('=')[1]
+            url_req_data = request.args.get(par)
+            if url_req_data == par_data:
+                for api in mock_list_all:
+                    if url_req_data in api['req_data']:
+                        return jsonify(api['res_data'])
+                    else:
+                        return u'没有匹配的参数'
+            else:
+                return u'没有匹配的字段'
+    else:
+        return u'还没写post'
+
+
+
+#restful over==========
 
 def connect_db():
     return MySQLdb.connect('192.168.100.35','wangjia','wangjia123',DATABASE,charset = 'utf8')
@@ -153,6 +191,14 @@ def ready_to_start():
         return redirect(url_for('login'))
     return render_template('ready_to_start.html')
 
+#Mock测试
+@app.route('/mock_test')
+def mock_test():
+    mylogger.info('来到了Mock测试界面=========================')
+    if not session.get('logged_in'):
+        return redirect(url_for('login'))
+    return render_template('mock_test.html')
+
 @app.route('/logout')
 def logout():
     session.pop('logged_in',None)
@@ -168,4 +214,4 @@ def teardown_request(exception):
     g.db.close()
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

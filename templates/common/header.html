@@ -16,7 +16,8 @@
                 <li><a href="{{url_for('start_test')}}">已添加接口</a></li>
 				<li><a href="{{url_for('add_api')}}">添加新接口</a></li>
 				<li><a href="{{url_for('ready_to_start')}}">准备开始测试</a></li>
-				<li style="margin-left:400px">
+				<li><a href="{{url_for('mock_test')}}">Mock测试</a></li>
+				<li style="margin-left:300px">
 					{% if not session.logged_in %}
 					<a href="{{ url_for('login') }}">登录</a>
 					{% else %}

@@ -14,6 +14,7 @@
 		<style type="text/css">
 		.input-group{font-family:STSong;font-size:16px}
 		label,span{font-family:Microsoft YaHei}
+		.mock-title{height:70px;margin: 0px auto;text-align:center}
 		</style>
 	</head>
 	<body>
@@ -37,6 +38,11 @@
                 $(this).parent().addClass('active'); // this.className = 'active';
             }
         });
+		//注册新增按钮的事件
+		$("#btn_add").click(function () {
+			$("#myModalLabel").text("新增");
+			$('#myModal').modal();
+		});
 		</script>
 		{% endblock %}
 	</body>

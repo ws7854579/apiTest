@@ -230,3 +230,14 @@ def get_history_list(limit_start):
     cur.execute(sql)
     result = cur.fetchall()
     return result
+
+#用于mock，从mock_list里面取出所有数据
+def get_mock_list():
+    sql = 'select * from mock_list order by date desc'
+    db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
+    cur = db.cursor()
+    cur.execute(sql)
+    bf_result = cur.fetchall()
+    af_result = list(dict(url_name=row[1],url=row[2],req_form=row[3],method=row[4],req_data=row[5],res_data=row[6])for row in bf_result)
+    return af_result
+
