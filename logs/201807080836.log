@@ -1,0 +1,15 @@
+2018-07-08 08:36:07,690 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-08 08:36:07,739 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-08 08:36:08,483 - Flask - INFO - 进入get_url
+2018-07-08 08:36:08,523 - Flask - INFO - url：data-service/identity/auth
+2018-07-08 08:36:08,523 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_form': u'name=&account=&sign=&cid=', 'url': u'data-service/identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09'}
+2018-07-08 08:36:08,523 - Flask - INFO - data-service/identity/auth
+2018-07-08 08:36:08,523 - Flask - INFO - url和path相同
+2018-07-08 08:36:08,523 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_form': u'name=&account=&sign=&cid=', 'url': u'data-service/identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09'}
+2018-07-08 08:36:08,523 - Flask - INFO - data-service/identity/auth
+2018-07-08 08:36:08,523 - Flask - INFO - url和path相同
+2018-07-08 08:36:08,523 - Flask - INFO - [u'name=\u5f20\u4e09', u'name=\u5f20\u4e09']
+2018-07-08 08:36:08,523 - Flask - INFO - [u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}']
+2018-07-08 08:36:08,523 - Flask - INFO - method==GET
+2018-07-08 08:36:08,523 - Flask - INFO - 获取请求参数:张三
+2018-07-08 08:36:08,523 - Flask - INFO - 在库中找到了相同的参数

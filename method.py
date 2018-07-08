@@ -238,6 +238,6 @@ def get_mock_list():
     cur = db.cursor()
     cur.execute(sql)
     bf_result = cur.fetchall()
-    af_result = list(dict(url_name=row[1],url=row[2],req_form=row[3],method=row[4],req_data=row[5],res_data=row[6])for row in bf_result)
+    af_result = list(dict(url_name=row[2],url=row[3],req_form=row[4],method=row[5],req_data=row[6],res_data=row[7],req_blob=row[8])for row in bf_result)
     return af_result
 

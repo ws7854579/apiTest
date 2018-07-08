@@ -10,7 +10,7 @@ import time,os
 import HTMLTestRunner
 import math
 from flask_restful import Resource,Api
-
+import json
 
 mylogger = Logger('Flask').getlog()
 #configuration
@@ -27,29 +27,39 @@ api = Api(app)
 
 #restful start=========
 @app.route('/<path:path>', methods=['GET','POST'])
-def get_url(self,url):
+def get_url(path):
     mylogger.info('进入get_url')
     mock_list_all = method.get_mock_list()
     list_req_form = []
     list_req_data = []
-    list_res_data = []
+    list_req_blob = []
+    mylogger.info('url：%s'%path)
     for api in mock_list_all:
-        if api['url'] == url:
+        mylogger.info(api)
+        mylogger.info(api['url'])
+        if api['url'] == path:
+            mylogger.info('url和path相同')
             list_req_form.append(api['req_form'])
             list_req_data.append(api['req_data'])
-            list_res_data.append(api['res_data'])
+            list_req_blob.append(api['req_blob'])
     #暂时用‘=’分割req_data
     mylogger.info(list_req_data)
-    mylogger.info(list_res_data)
+    mylogger.info(list_req_blob)
     if request.method == 'GET':
+        mylogger.info('method==GET')
         for req in list_req_data:
             par = req.split('=')[0]
             par_data = req.split('=')[1]
             url_req_data = request.args.get(par)
+            mylogger.info(u'获取请求参数:%s'%url_req_data)
             if url_req_data == par_data:
+                mylogger.info(u'在库中找到了相同的参数')
                 for api in mock_list_all:
                     if url_req_data in api['req_data']:
-                        return jsonify(api['res_data'])
+                        #json = {"resCode":"2010","resMsg":"身份验证成功","tid":"1035005015310118542372260","sign":"A74D2BFC07EFF29A597897E0BA48D427"}
+                        #return jsonify(json)
+                        text_blob = json.loads(api['req_blob'])
+                        return jsonify(text_blob)
                     else:
                         return u'没有匹配的参数'
             else:
