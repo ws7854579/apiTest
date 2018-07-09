@@ -1,0 +1,38 @@
+2018-07-09 18:22:55,288 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 18:22:55,411 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 18:22:55,773 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 18:22:55,910 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 18:23:02,378 - Flask - INFO - 进入get_url
+2018-07-09 18:23:02,453 - Flask - INFO - url：identity/auth
+2018-07-09 18:23:02,453 - Flask - INFO - {'res_data': None, 'url_name': u'\u8eab\u4efd\u6838\u9a8c', 'req_form': u'name=&cid=', 'req_blob': '"{\\"resCode\\":\\"2010\\",\\"resMsg\\":\\"\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f\\",\\"tid\\":\\"1035005015311265343457585\\",\\"sign\\":\\"DA2978EA49CF70124E897277145C153D\\"}"', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u674e\u56db'}
+2018-07-09 18:23:02,460 - Flask - INFO - identity/auth
+2018-07-09 18:23:02,460 - Flask - INFO - url和path相同
+2018-07-09 18:23:02,460 - Flask - INFO - {'res_data': None, 'url_name': u'1', 'req_form': u'1', 'req_blob': '"1"', 'url': u'1', 'method': u'1', 'req_data': u'1'}
+2018-07-09 18:23:02,460 - Flask - INFO - 1
+2018-07-09 18:23:02,460 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'data-service/identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09\u56db'}
+2018-07-09 18:23:02,460 - Flask - INFO - data-service/identity/auth
+2018-07-09 18:23:02,460 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09'}
+2018-07-09 18:23:02,461 - Flask - INFO - identity/auth
+2018-07-09 18:23:02,461 - Flask - INFO - url和path相同
+2018-07-09 18:23:02,461 - Flask - INFO - [u'name=\u674e\u56db', u'name=\u5f20\u4e09']
+2018-07-09 18:23:02,461 - Flask - INFO - ['"{\\"resCode\\":\\"2010\\",\\"resMsg\\":\\"\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f\\",\\"tid\\":\\"1035005015311265343457585\\",\\"sign\\":\\"DA2978EA49CF70124E897277145C153D\\"}"', '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}']
+2018-07-09 18:23:02,461 - Flask - INFO - method==GET
+2018-07-09 18:23:02,461 - Flask - INFO - 获取请求参数:张三
+2018-07-09 18:23:02,461 - Flask - INFO - 获取数据库中存储的请求参数：李四
+2018-07-09 18:23:02,461 - Flask - INFO - 参数继续找下一个
+2018-07-09 18:23:02,461 - Flask - INFO - 获取请求参数:张三
+2018-07-09 18:23:02,461 - Flask - INFO - 获取数据库中存储的请求参数：张三
+2018-07-09 18:23:02,461 - Flask - INFO - 在库中找到了相同的参数
+2018-07-09 18:23:02,463 - Flask - INFO - {'res_data': None, 'url_name': u'\u8eab\u4efd\u6838\u9a8c', 'req_form': u'name=&cid=', 'req_blob': '"{\\"resCode\\":\\"2010\\",\\"resMsg\\":\\"\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f\\",\\"tid\\":\\"1035005015311265343457585\\",\\"sign\\":\\"DA2978EA49CF70124E897277145C153D\\"}"', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u674e\u56db'}
+2018-07-09 18:23:02,463 - Flask - INFO - req_data:name=李四
+2018-07-09 18:23:02,463 - Flask - INFO - 与参数数据相匹配的api不是这个，继续查找下一个
+2018-07-09 18:23:02,463 - Flask - INFO - req_data:name=李四
+2018-07-09 18:23:02,463 - Flask - INFO - 与参数数据相匹配的api不是这个，继续查找下一个
+2018-07-09 18:23:02,463 - Flask - INFO - req_data:name=李四
+2018-07-09 18:23:02,463 - Flask - INFO - 与参数数据相匹配的api不是这个，继续查找下一个
+2018-07-09 18:23:02,463 - Flask - INFO - req_data:name=李四
+2018-07-09 18:23:02,463 - Flask - INFO - 与参数数据相匹配的api不是这个，继续查找下一个
+2018-07-09 18:23:02,463 - Flask - INFO - req_data:name=李四
+2018-07-09 18:23:02,464 - Flask - INFO - {'res_data': None, 'url_name': u'1', 'req_form': u'1', 'req_blob': '"1"', 'url': u'1', 'method': u'1', 'req_data': u'1'}
+2018-07-09 18:23:02,464 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'data-service/identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09\u56db'}
+2018-07-09 18:23:02,466 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09'}
