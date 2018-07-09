@@ -1,0 +1,51 @@
+2018-07-09 10:48:10,667 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 10:48:11,029 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 10:48:12,180 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 10:48:12,477 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 10:48:21,263 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 10:53:56,601 - Flask - INFO - 来到了start_test页面=========================
+2018-07-09 10:53:56,602 - Flask - INFO - 获取到的select_value为：None
+2018-07-09 10:53:56,602 - Flask - INFO - 当前展示第1页数据
+2018-07-09 10:53:56,792 - Flask - INFO - 总共有3个api
+2018-07-09 10:53:56,792 - Flask - INFO - (0.3, 0.0)
+2018-07-09 10:53:56,792 - Flask - INFO - ================当前的页数为1=========
+2018-07-09 10:53:56,792 - Flask - INFO - ===============应分为1页=============
+2018-07-09 10:53:56,842 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-09 10:53:58,220 - Flask - INFO - 来到了测试历史记录页面===================
+2018-07-09 10:53:58,430 - Flask - INFO - (0.5, 0.0)
+2018-07-09 10:53:58,430 - Flask - INFO - [{'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-14_48_16HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 14:48:18', 'history_id': 1, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-14_48_10HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 14:48:13', 'history_id': 2, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-05-11_39_35HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-05 11:39:39', 'history_id': 3, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_57_06HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:57:09', 'history_id': 4, 'fail_num': u'3'}, {'status': u'Failed', 'report': u'D:/python/api_flask/apiTest/report/2018-07-04-17_56_43HTMLtemplate.html', 'pass_num': u'3', 'date': u'2018-07-04 17:56:47', 'history_id': 5, 'fail_num': u'3'}]
+2018-07-09 10:54:00,463 - Flask - INFO - 来到了主界面===========================
+2018-07-09 10:54:01,601 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-09 10:54:05,963 - Flask - INFO - 来到了准备开始测试界面=========================
+2018-07-09 10:54:08,338 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-09 10:54:11,312 - Flask - INFO - 来到了start_test页面=========================
+2018-07-09 10:54:11,312 - Flask - INFO - 获取到的select_value为：None
+2018-07-09 10:54:11,313 - Flask - INFO - 当前展示第1页数据
+2018-07-09 10:54:11,512 - Flask - INFO - 总共有3个api
+2018-07-09 10:54:11,512 - Flask - INFO - (0.3, 0.0)
+2018-07-09 10:54:11,512 - Flask - INFO - ================当前的页数为1=========
+2018-07-09 10:54:11,512 - Flask - INFO - ===============应分为1页=============
+2018-07-09 10:54:11,602 - Flask - INFO - [{'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u7248', 'id': 1L}, {'cache_table': u'ds_edu.user_edu_data', 'url': u'/data-service/edu/querydet', 'url_name': u'\u5b66\u5386\u7b80\u72482', 'id': 2L}, {'cache_table': u'', 'url': u'/data-service/telecom/rephonenum', 'url_name': u'\u8fd0\u8425\u5546\u4e8c\u6b21\u653e\u53f7', 'id': 14L}]
+2018-07-09 10:54:12,403 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 10:57:07,838 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 10:58:01,746 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 10:59:12,559 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 10:59:16,959 - Flask - INFO - 来到了主界面===========================
+2018-07-09 10:59:19,638 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:02:02,651 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:02:24,596 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:03:44,062 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:04:17,979 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:11:47,394 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:12:22,671 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:12:45,831 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:12:55,023 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:13:58,217 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:15:47,431 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:16:03,710 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:16:09,904 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:18:13,542 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:18:26,608 - Flask - INFO - 来到了添加新接口界面=========================
+2018-07-09 11:18:27,676 - Flask - INFO - 来到了准备开始测试界面=========================
+2018-07-09 11:18:28,826 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 11:22:49,766 - Flask - INFO - 来到了Mock测试界面=========================

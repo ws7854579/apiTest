@@ -1,6 +1,6 @@
 {% extends "common/base.html" %}<!--继承基础模板-->
 {% block content %}<!--自定义模板区域-->
-<form action="{{ url_for('add_entry') }}" method=post class="add-entry ">
+<form action=" {{ url_for('add_entry') }}" method="post" class="add-entry ">
       <div class="row" style="padding:20px 0">
 		<h3>添加新的接口用例(*为必填，其他为非必填)</h3>
 	  </div>
@@ -52,6 +52,6 @@
 			<input class="form-control" name="cache_table" type="text">
 		</div>
 	  </div>
-	  <a href="{{url_for('add_entry')}}" class="button button-raised button-pill button-inverse">点击添加</a>
+	  <button type="submit" class="button button-raised button-pill button-inverse">点击添加</button>
 </form>
 {% endblock %}

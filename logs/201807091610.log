@@ -1,0 +1,14 @@
+2018-07-09 16:10:01,174 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 16:10:01,428 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 16:10:01,844 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-09 16:10:02,413 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-09 16:10:08,767 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 16:10:08,872 - Flask - INFO - (0.3, 0.0)
+2018-07-09 16:10:08,874 - Flask - INFO - [{'history_id': 1, 'url_name': u'1', 'req_blob': u'1', 'url_path': u'1'}, {'history_id': 2, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}, {'history_id': 3, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}]
+2018-07-09 16:10:13,052 - Flask - INFO - 来到了主界面===========================
+2018-07-09 16:10:14,744 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 16:10:14,864 - Flask - INFO - (0.3, 0.0)
+2018-07-09 16:10:14,865 - Flask - INFO - [{'history_id': 1, 'url_name': u'1', 'req_blob': u'1', 'url_path': u'1'}, {'history_id': 2, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}, {'history_id': 3, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}]
+2018-07-09 16:11:29,862 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-09 16:11:30,177 - Flask - INFO - (0.3, 0.0)
+2018-07-09 16:11:30,177 - Flask - INFO - [{'history_id': 1, 'url_name': u'1', 'req_blob': u'1', 'url_path': u'1'}, {'history_id': 2, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}, {'history_id': 3, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_blob': {u'tid': u'1035005015310118542372260', u'resMsg': u'\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f', u'resCode': u'2010', u'sign': u'A74D2BFC07EFF29A597897E0BA48D427'}, 'url_path': u'data-service/identity/auth'}]

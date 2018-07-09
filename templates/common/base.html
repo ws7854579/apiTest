@@ -7,7 +7,6 @@
 		{% block css %}
 		<link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet"/>
 		<link href="{{url_for('static',filename='css/bootstrap-theme.min.css')}}" rel="stylesheet"/>
-		<link href="{{ url_for('static', filename='css/offcanvas.css') }}" rel="stylesheet">
 		<link href="{{url_for('static',filename='css/button_style.css')}}" rel="stylesheet">
 		<link href="{{url_for('static',filename='css/bootstrap-select.min.css')}}" rel="stylesheet" />
 		{% endblock %}
@@ -15,6 +14,38 @@
 		.input-group{font-family:STSong;font-size:16px}
 		label,span{font-family:Microsoft YaHei}
 		.mock-title{height:70px;margin: 0px auto;text-align:center}
+		
+		.modal-dialog { 
+			position: absolute; 
+			top: 0; 
+			bottom: 0; 
+			left: 0; 
+			right: 0; 
+		} 
+
+		.modal-content { 
+			/*overflow-y: scroll; */ 
+			position: absolute; 
+			top: 0; 
+			bottom: 0; 
+			width: 100%; 
+		} 
+
+		.modal-body { 
+			overflow-y: scroll; 
+			position: absolute; 
+			top: 55px; 
+			bottom: 65px; 
+			width: 100%; 
+		} 
+
+		.modal-header .close {margin-right: 15px;} 
+
+		.modal-footer {
+			position: absolute; 
+			width: 100%; 
+			bottom: 0; 
+		}
 		</style>
 	</head>
 	<body>

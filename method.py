@@ -241,3 +241,14 @@ def get_mock_list():
     af_result = list(dict(url_name=row[2],url=row[3],req_form=row[4],method=row[5],req_data=row[6],res_data=row[7],req_blob=row[8])for row in bf_result)
     return af_result
 
+#用于mock，从mock_list里面取出部分数据
+def get_mock_data(limit_start):
+    if limit_start < 0:
+        limit_start = 0
+    sql = 'select url_name,url,req_blob from test.mock_list order by date desc limit {0},10'.format(
+        limit_start)
+    db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
+    cur = db.cursor()
+    cur.execute(sql)
+    result = cur.fetchall()
+    return result

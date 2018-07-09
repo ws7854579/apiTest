@@ -26,7 +26,7 @@ app.config.from_object(__name__)
 api = Api(app)
 
 #restful start=========
-@app.route('/<path:path>', methods=['GET','POST'])
+@app.route('/data-service/<path:path>', methods=['GET','POST'])
 def get_url(path):
     mylogger.info('进入get_url')
     mock_list_all = method.get_mock_list()
@@ -75,15 +75,35 @@ def connect_db():
     return MySQLdb.connect('192.168.100.35','wangjia','wangjia123',DATABASE,charset = 'utf8')
 
 
-@app.route('/add',methods = ['POST'])
+@app.route('/add',methods = ['GET','POST'])
 def add_entry():
+    mylogger.info('进入add_entry()方法')
     if not session.get('logged_in'):
         abort(401)
+    mylogger.info('url_name:%s'%request.form['url'])
     cur = g.db.cursor()
     cur.execute("insert into test.api_list (url_name,url,method,params_from_sql,type,md5_params,url_params,cache_table) values('%s','%s','%s','%s','%s','%s','%s','%s')"%(request.form['url_name'],request.form['url'],request.form['method'],request.form['params_from_sql'],request.form['type'],request.form['md5_params'],request.form['url_params'],request.form['cache_table']))
     g.db.commit()
     flash('New entry was successfully posted')
-    return redirect(url_for('main'))
+    return redirect(url_for('start_test'))
+
+@app.route('/add_mock_list',methods=['GET','POST'])
+def add_mock_list():
+    mylogger.info('进入add_mock_list')
+    if not session.get('logged_in'):
+        abort(401)
+    date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    cur = g.db.cursor()
+    d = request.form['res_data']
+    d_json = json.dumps(d)
+    tsql =  "insert into test.mock_list (date,url_name,url,req_form,method,req_data,req_blob) values('%s','%s','%s','%s','%s','%s','{json}')" % (
+        date, request.form['url_name'], request.form['url_path'], request.form['req_form'],
+        request.form['req_method'], request.form['req_data'] )
+    mylogger.info(tsql)
+    sql = tsql.format(json=MySQLdb.escape_string(d_json))
+    cur.execute(sql)
+    g.db.commit()
+    return redirect(url_for('mock_test'))
 
 @app.route('/login',methods = ['GET','POST'])
 def login():
@@ -202,12 +222,29 @@ def ready_to_start():
     return render_template('ready_to_start.html')
 
 #Mock测试
-@app.route('/mock_test')
+@app.route('/mock_test',methods=['GET','POST'])
 def mock_test():
     mylogger.info('来到了Mock测试界面=========================')
     if not session.get('logged_in'):
         return redirect(url_for('login'))
-    return render_template('mock_test.html')
+    #分页和查库
+    p = request.args.get('p', '1')
+    limit_start = (int(p) - 1) * 10
+    mockList_bf = method.get_mock_data(limit_start)
+    testList = []
+    a = 1
+    for row in mockList_bf:
+        testList.append(dict(url_name=row[0], url_path=row[1], req_blob=str(row[2]), history_id=a))
+        a += 1
+    history_list = len(mockList_bf)
+    #分页
+    page_sum_bf = float(history_list) / 10
+    page_sum_l = math.modf(page_sum_bf)
+    mylogger.info(page_sum_l)
+    pageNum = int(page_sum_l[1]) + 1
+    page_dic = list(range(1, pageNum + 1))
+    mylogger.info(testList)
+    return render_template('mock_test.html',mockList=testList,pageNum=page_dic,p=int(p))
 
 @app.route('/logout')
 def logout():
