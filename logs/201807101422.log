@@ -1,0 +1,27 @@
+2018-07-10 14:22:26,858 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-10 14:22:26,928 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-10 14:23:49,585 - Flask - INFO - 进入add_mock_list
+2018-07-10 14:23:49,602 - Flask - INFO - insert into test.mock_list (date,url_name,url,req_form,method,req_data,req_blob) values('2018-07-10 14:23:49','test2','test1/test','name=&cid=','get','name=孙速伟','{json}')
+2018-07-10 14:23:49,822 - Flask - INFO - 来到了Mock测试界面=========================
+2018-07-10 14:23:50,078 - Flask - INFO - (0.6, 0.0)
+2018-07-10 14:23:50,078 - Flask - INFO - [{'history_id': 1, 'url_name': u'test2', 'req_blob': '"{\\r\\n    \\"resCode\\": \\"2031\\",\\r\\n    \\"resMsg\\": \\"\\u9a8c\\u8bc1\\u5931\\u8d25\\",\\r\\n    \\"tid\\": \\"1035010815312032504148536\\",\\r\\n    \\"reqTid\\": \\"1234\\",\\r\\n    \\"sign\\": \\"7BBE1833582BC6D457497F8353A74B09\\"\\r\\n}"', 'url_path': u'test1/test'}, {'history_id': 2, 'url_name': u'test1', 'req_blob': '"{\\r\\n    \\"resCode\\": \\"2031\\",\\r\\n    \\"resMsg\\": \\"\\u9a8c\\u8bc1\\u5931\\u8d25\\",\\r\\n    \\"tid\\": \\"1035010815312032504148536\\",\\r\\n    \\"reqTid\\": \\"1234\\",\\r\\n    \\"sign\\": \\"7BBE1833582BC6D457497F8353A74B09\\"\\r\\n}"', 'url_path': u'test1/test2'}, {'history_id': 3, 'url_name': u'\u8eab\u4efd\u6838\u9a8c', 'req_blob': '"{\\"resCode\\":\\"2010\\",\\"resMsg\\":\\"\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f\\",\\"tid\\":\\"1035005015311265343457585\\",\\"sign\\":\\"DA2978EA49CF70124E897277145C153D\\"}"', 'url_path': u'identity/auth'}, {'history_id': 4, 'url_name': u'1', 'req_blob': '"1"', 'url_path': u'1'}, {'history_id': 5, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url_path': u'data-service/identity/auth'}, {'history_id': 6, 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url_path': u'identity/auth'}]
+2018-07-10 14:24:25,312 - Flask - INFO - 进入get_url
+2018-07-10 14:24:25,352 - Flask - INFO - url：test1/test
+2018-07-10 14:24:25,354 - Flask - INFO - {'res_data': None, 'url_name': u'test2', 'req_form': u'name=&cid=', 'req_blob': '"{\\r\\n    \\"resCode\\": \\"2031\\",\\r\\n    \\"resMsg\\": \\"\\u9a8c\\u8bc1\\u5931\\u8d25\\",\\r\\n    \\"tid\\": \\"1035010815312032504148536\\",\\r\\n    \\"reqTid\\": \\"1234\\",\\r\\n    \\"sign\\": \\"7BBE1833582BC6D457497F8353A74B09\\"\\r\\n}"', 'url': u'test1/test', 'method': u'get', 'req_data': u'name=\u5b59\u901f\u4f1f'}
+2018-07-10 14:24:25,354 - Flask - INFO - test1/test
+2018-07-10 14:24:25,354 - Flask - INFO - url和path相同
+2018-07-10 14:24:25,354 - Flask - INFO - 1
+2018-07-10 14:24:25,354 - Flask - INFO - {'res_data': None, 'url_name': u'test1', 'req_form': u'name=&cid=', 'req_blob': '"{\\r\\n    \\"resCode\\": \\"2031\\",\\r\\n    \\"resMsg\\": \\"\\u9a8c\\u8bc1\\u5931\\u8d25\\",\\r\\n    \\"tid\\": \\"1035010815312032504148536\\",\\r\\n    \\"reqTid\\": \\"1234\\",\\r\\n    \\"sign\\": \\"7BBE1833582BC6D457497F8353A74B09\\"\\r\\n}"', 'url': u'test1/test2', 'method': u'get', 'req_data': u'name=\u5b59\u901f\u4f1f'}
+2018-07-10 14:24:25,354 - Flask - INFO - test1/test2
+2018-07-10 14:24:25,354 - Flask - INFO - 2
+2018-07-10 14:24:25,354 - Flask - INFO - {'res_data': None, 'url_name': u'\u8eab\u4efd\u6838\u9a8c', 'req_form': u'name=&cid=', 'req_blob': '"{\\"resCode\\":\\"2010\\",\\"resMsg\\":\\"\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f\\",\\"tid\\":\\"1035005015311265343457585\\",\\"sign\\":\\"DA2978EA49CF70124E897277145C153D\\"}"', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u674e\u56db'}
+2018-07-10 14:24:25,354 - Flask - INFO - identity/auth
+2018-07-10 14:24:25,355 - Flask - INFO - 3
+2018-07-10 14:24:25,355 - Flask - INFO - {'res_data': None, 'url_name': u'1', 'req_form': u'1', 'req_blob': '"1"', 'url': u'1', 'method': u'1', 'req_data': u'1'}
+2018-07-10 14:24:25,355 - Flask - INFO - 1
+2018-07-10 14:24:25,355 - Flask - INFO - 4
+2018-07-10 14:24:25,355 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u71672', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'data-service/identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09\u56db'}
+2018-07-10 14:24:25,355 - Flask - INFO - data-service/identity/auth
+2018-07-10 14:24:25,355 - Flask - INFO - 5
+2018-07-10 14:24:25,355 - Flask - INFO - {'res_data': u'{"resCode":"2010","resMsg":"\u8eab\u4efd\u9a8c\u8bc1\u6210\u529f","tid":"1035005015308488944002252","sign":"5BD345A74B2EECD92541B228553E3102"}', 'url_name': u'\u8eab\u4efd\u6838\u9a8c\u4e0d\u8fd4\u7167', 'req_form': u'name=&account=&sign=&cid=', 'req_blob': '{"tid": "1035005015310118542372260", "sign": "A74D2BFC07EFF29A597897E0BA48D427", "resCode": "2010", "resMsg": "\\u8eab\\u4efd\\u9a8c\\u8bc1\\u6210\\u529f"}', 'url': u'identity/auth', 'method': u'get', 'req_data': u'name=\u5f20\u4e09'}
+2018-07-10 14:24:25,355 - Flask - INFO - identity/auth

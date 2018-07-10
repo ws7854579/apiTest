@@ -45,6 +45,7 @@ def get_url(path):
             list_req_form.append(api['req_form'])
             list_req_data.append(api['req_data'])
             list_req_blob.append(api['req_blob'])
+            break
         elif count == len_mock:
             return '没有找到相匹配的url'
         mylogger.info(count)
@@ -110,8 +111,8 @@ def add_mock_list():
         abort(401)
     date = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     cur = g.db.cursor()
-    d = request.form['res_data']
-    d_json = json.dumps(d)
+    d_json = request.form['res_data']
+    #d_json = json.dumps(d)
     tsql =  "insert into test.mock_list (date,url_name,url,req_form,method,req_data,req_blob) values('%s','%s','%s','%s','%s','%s','{json}')" % (
         date, request.form['url_name'], request.form['url_path'], request.form['req_form'],
         request.form['req_method'], request.form['req_data'] )
