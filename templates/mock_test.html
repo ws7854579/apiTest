@@ -11,7 +11,7 @@
 			</span>
 		</div><!-- /input-group -->
 	</div><!-- /.col-lg-6 -->
-	<a href="#" class="button button-raised button-pill button-inverse" data-toggle="modal" data-target="#myModal" style="float:right;margin-right:150px">新增</a>
+	<a class="button button-raised button-pill button-inverse" data-toggle="modal" data-target="#myModal" style="float:right;margin-right:150px">新增</a>
 </div>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
@@ -58,16 +58,55 @@
             </div>
         </div>
     </div>
+<!--查看详情弹窗-->
 
+<div class="modal fade" id="myModal_detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_detail" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="mbtn_add_detail">查看详情</h4>
+                </div>
+				
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="txt_departmentname">url名称</label>
+                        <input type="text" class="form-control" readonly="readonly" id="mock_url_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_parentdepartment">url访问路径</label>
+                        <input type="text" class="form-control" readonly="readonly" id="mock_url_path">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">请求格式</label>
+                        <input type="text" class="form-control" readonly="readonly" id="mock_req_form">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">匹配数据</label>
+                        <input type="text" class="form-control" readonly="readonly" id="mock_req_data">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <textarea type="text" class="form-control" readonly="readonly" id="mock_res_data" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--查看详情弹窗-->
 <div class="mock-body">
 <table class="table table-striped" style="table-layout:fixed">
 	<thead>
 	<tr>
-		<th width="10%" style="font-family:Microsoft YaHei">ID</th>
-		<th width="20%" style="font-family:Microsoft YaHei">url名称</th>
+		<th width="5%" style="font-family:Microsoft YaHei">ID</th>
+		<th width="15%" style="font-family:Microsoft YaHei">url名称</th>
 		<th width="20%" style="font-family:Microsoft YaHei">url路径</th>
-		<th width="40%" style="font-family:Microsoft YaHei">响应json</th>
-		<th width="10%" style="font-family:Microsoft YaHei">操作</th>
+		<th width="45%" style="font-family:Microsoft YaHei">响应json</th>
+		<th width="15%" style="font-family:Microsoft YaHei">操作</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -77,8 +116,9 @@
 			<td style="font-family:Microsoft YaHei">{{mockApi.url_name}}</td>
 			<td style="font-family:Microsoft YaHei">{{mockApi.url_path}}</td>
 			<td style="font-family:Microsoft YaHei;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">{{mockApi.req_blob}}</td>
-			<td style="font-family:Microsoft YaHei"><a href="#">查看详情</a>&ensp;&ensp;<a href="#">修改</a></td>
+			<td style="font-family:Microsoft YaHei"><a id="mock_detail" href="/mock_test?listId={{mockApi.list_id}}" onclick="query({{mockApi.list_id}});return false">查看详情</a>&ensp;&ensp;<a href="#">修改</a></td>
 		</tr>
+
 	{% endfor %}
 	</tbody>
 </table>
@@ -94,5 +134,59 @@
 			<li><a href="/mock_test?p={{p+1}}">&raquo;</a></li>
 	</ul>
 </div>
-
+	{% block js %}
+	<script type="text/javascript" src="{{url_for('static',filename='js/jquery.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap-select.min.js')}}"></script>
+	<script>
+	//注册新增按钮的事件
+		/*$("mbtn_add").click(function () {
+			$("#myModalLabel").text("新增");
+			$('#myModal').modal();
+		});*/
+	//注册新增查看详情按钮的事件
+		/*$("#mock_detail").click(function () {
+			//$("#myModalLabel_detail").text("查看详情");
+			//event.preventDefault();
+			var url = $("#mock_detail").attr("href");
+			$("#myModal_detail").load(url);	
+			$("#myModal_detail").modal();						
+		});*/
+	
+		//获取mock_test jsonify返回的json
+		/*$('#myModal_detail').on('shown.bs.modal', function () {
+		// 执行一些动作...
+		});*/
+		
+		$.getJSON("/mock_test",function(data){
+			var mock_url_name = data.url_name;
+			var mock_url_path = data.url_path;
+			var mock_req_form = data.req_form;
+			var mock_req_data = data.req_data;
+			var mock_res_data = data.res_blob;
+		});
+		
+		function query(id){
+			//var detail_url = $("#mock_detail").attr("href");
+			//alert(detail_url);
+			$.ajax({
+				url:"/mock_test?listId="+id,
+				async:false,
+				type:"POST",
+				data:"",
+				success:showQuery
+			});
+		}
+		
+		function showQuery(data){
+			$("#mock_url_name").val(data.url_name);
+			$("#mock_url_path").val(data.url_path);
+			$("#mock_req_form").val(data.req_form);
+			$("#mock_req_data").val(data.req_data);
+			$("#mock_res_data").val(data.req_blob);
+			$("#myModal_detail").modal('show');
+		}
+		
+	</script>
+	{% endblock %}
 {% endblock %}

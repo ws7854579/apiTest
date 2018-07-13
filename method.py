@@ -245,7 +245,7 @@ def get_mock_list():
 def get_mock_data(limit_start):
     if limit_start < 0:
         limit_start = 0
-    sql = 'select url_name,url,req_blob from test.mock_list order by date desc limit {0},10'.format(
+    sql = 'select url_name,url,req_blob,id,method,req_form,req_data from test.mock_list order by date desc limit {0},10'.format(
         limit_start)
     db = MySQLdb.connect('192.168.100.35', 'wangjia', 'wangjia123', 'test', charset='utf8')
     cur = db.cursor()

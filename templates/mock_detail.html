@@ -1,0 +1,44 @@
+{% block content %}<!--自定义模板区域-->
+<div class="modal fade" id="myModal_detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_detail" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="mbtn_add_detail">查看详情</h4>
+                </div>
+				
+                <div class="modal-body">
+				<form method="post">
+				{% for mock_api in mockList %}
+					{% if mock_api.list_id == list_id %}
+                    <div class="form-group">
+                        <label for="txt_departmentname">url名称</label>
+                        <p class="form-control">{{mock_api.url_name}}</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_parentdepartment">url访问路径</label>
+                        <p class="form-control">{{mock_api.url_path}}</p>
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <p class="form-control">{{mock_api.req_form}}</p>
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <p class="form-control">{{mock_api.req_data}}</p>
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <p class="form-control">{{mock_api.req_blob}}</p>
+                    </div>
+					{%endif%}
+				{%endfor%}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                </div>
+				</form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

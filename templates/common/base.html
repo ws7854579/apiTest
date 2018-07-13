@@ -3,6 +3,21 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>API test</title>
+		{% block js %}
+		<script type="text/javascript" src="{{url_for('static',filename='js/jquery.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap-select.min.js')}}"></script>
+		<script>
+		 $(document).ready(function() {
+		//依赖于jQuery的代码
+		});
+		$('.navbar-nav').find('a').each(function () {
+            if (this.href == document.location.href || document.location.href.search(this.href) >= 0) {
+                $(this).parent().addClass('active'); // this.className = 'active';
+            }
+        });
+		</script>
+		{% endblock %}
 		<link rel="icon" href="{{url_for('static',filename='images/favicon.ico')}}">
 		{% block css %}
 		<link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet"/>
@@ -10,6 +25,7 @@
 		<link href="{{url_for('static',filename='css/button_style.css')}}" rel="stylesheet">
 		<link href="{{url_for('static',filename='css/bootstrap-select.min.css')}}" rel="stylesheet" />
 		{% endblock %}
+		
 		<style type="text/css">
 		.input-group{font-family:STSong;font-size:16px}
 		label,span{font-family:Microsoft YaHei}
@@ -58,23 +74,5 @@
 			</div>
 			{% include "common/footer.html" %}
 		</div>
-		
-		{% block js %}
-		<script type="text/javascript" src="{{url_for('static',filename='js/jquery.js')}}"></script>
-		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
-		<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap-select.min.js')}}"></script>
-		<script>
-		$('.navbar-nav').find('a').each(function () {
-            if (this.href == document.location.href || document.location.href.search(this.href) >= 0) {
-                $(this).parent().addClass('active'); // this.className = 'active';
-            }
-        });
-		//注册新增按钮的事件
-		$("#btn_add").click(function () {
-			$("#myModalLabel").text("新增");
-			$('#myModal').modal();
-		});
-		</script>
-		{% endblock %}
 	</body>
 </html>

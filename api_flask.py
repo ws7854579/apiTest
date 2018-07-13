@@ -239,6 +239,14 @@ def ready_to_start():
     return render_template('ready_to_start.html')
 
 #Mock测试
+
+#mock_detail查看详情
+# @app.route('/mock_detail',methods=['GET','POST'])
+# def mock_detail():
+#     mylogger.info('进入MockDetail页面====================')
+#     detail_id = request.args.get('list_id')
+
+
 @app.route('/mock_test',methods=['GET','POST'])
 def mock_test():
     mylogger.info('来到了Mock测试界面=========================')
@@ -246,12 +254,14 @@ def mock_test():
         return redirect(url_for('login'))
     #分页和查库
     p = request.args.get('p', '1')
+    list_id_web = request.args.get('listId',None)
+    mylogger.info('listId:%s'%list_id_web)
     limit_start = (int(p) - 1) * 10
     mockList_bf = method.get_mock_data(limit_start)
     testList = []
     a = 1
     for row in mockList_bf:
-        testList.append(dict(url_name=row[0], url_path=row[1], req_blob=str(row[2]), history_id=a))
+        testList.append(dict(url_name=row[0], url_path=row[1], req_blob=str(row[2]),list_id=int(row[3]),method=row[4],req_form=row[5],req_data=row[6],history_id=a))
         a += 1
     history_list = len(mockList_bf)
     #分页
@@ -261,7 +271,17 @@ def mock_test():
     pageNum = int(page_sum_l[1]) + 1
     page_dic = list(range(1, pageNum + 1))
     mylogger.info(testList)
-    return render_template('mock_test.html',mockList=testList,pageNum=page_dic,p=int(p))
+    if list_id_web != None:
+        mylogger.info('method==get,返回另一个界面')
+        for mockApi in testList:
+            mylogger.info(mockApi)
+            mylogger.info('此次的list_id:%s'%mockApi['list_id'])
+            if str(list_id_web) == str(mockApi['list_id']):
+                mylogger.info('找到了相同的list_id')
+                json.dumps(mockApi)
+                return jsonify(mockApi)
+    else:
+        return render_template('mock_test.html',mockList=testList,page_num=page_dic,p=int(p),list_id=list_id_web)
 
 @app.route('/logout')
 def logout():
