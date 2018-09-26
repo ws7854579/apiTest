@@ -1,7 +1,7 @@
 {% extends "common/base.html" %}<!--继承基础模板-->
 {% block content %}<!--自定义模板区域-->
 <form action="{{ url_for('start') }}" method=get class=add-entry>
-	<a href="{{url_for('start')}}" class="button button-raised button-pill button-inverse" style="float:right;margin-right:150px">开始测试</a>
+	<a href="{{url_for('start')}}" class="button button-primary button-rounded button-small" style="float:right;margin-right:150px">开始测试</a>
 </form>
 <div style="margin-left:100px;margin-right:150px;">
 <p style="display:inline;font-family:Microsoft YaHei">请选择使用的测试IP：</p>

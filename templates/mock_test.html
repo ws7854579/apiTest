@@ -2,16 +2,15 @@
 {% block content %}<!--自定义模板区域-->
 
 <div class="mock-title">
-<span style="float:left;font-size:1.2em;">接口URL:</span>
 	<div class="col-lg-3">	
 		<div class="input-group">
-			<input type="text" class="form-control">
+			<input type="text" class="form-control" placeholder="输入名称或路径">
 			<span class="input-group-btn">
 				<button class="btn btn-default" type="button">搜索</button>
 			</span>
 		</div><!-- /input-group -->
 	</div><!-- /.col-lg-6 -->
-	<a class="button button-raised button-pill button-inverse" data-toggle="modal" data-target="#myModal" style="float:right;margin-right:150px">新增</a>
+	<a class="button button-primary button-rounded button-small" data-toggle="modal" data-target="#myModal" style="float:right;margin-right:60px">新增</a>
 </div>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
@@ -29,7 +28,7 @@
                         <input type="text" name="url_name" class="form-control" placeholder="url名称">
                     </div>
                     <div class="form-group">
-                        <label for="txt_parentdepartment">url访问路径</label>
+                        <label for="txt_parentdepartment">url访问路径<label style="color:red">(*前面不用加/data-service/)</label></label>
                         <input type="text" name="url_path" class="form-control" placeholder="访问路径">
                     </div>
                     <div class="form-group">
@@ -41,11 +40,11 @@
                         <input type="text" name="req_method" class="form-control" placeholder="post/get">
                     </div>
 					<div class="form-group">
-                        <label for="txt_statu">请求数据</label>
+                        <label for="txt_statu">请求数据<label style="color:red">(例：post id:123,get id=123)</label></label>
                         <input type="text" name="req_data" class="form-control" placeholder="请求数据">
                     </div>
 					<div class="form-group">
-                        <label for="txt_statu">响应数据</label>
+                        <label for="txt_statu">响应数据<label style="color:red">(*如果是post请求，请将字符串转化为json然后填入)</label></label>
                         <textarea name="res_data" class="form-control" rows="3"></textarea>
                     </div>
 				
@@ -98,6 +97,50 @@
     </div>
 
 <!--查看详情弹窗-->
+
+<!--修改弹窗-->
+
+<div class="modal fade" id="update_detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_update" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="mbtn_add_detail">查看详情</h4>
+                </div>
+				<form action=" {{ url_for('update_mock_list') }}" method="post">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="txt_departmentname">url名称</label>
+                        <input type="text" name="update_url_name" class="form-control" id="update_url_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="txt_parentdepartment">url访问路径</label>
+                        <input type="text" name="update_url_path" class="form-control" id="update_url_path">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">请求格式</label>
+                        <input type="text" name="update_req_form" class="form-control" id="update_req_form">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">匹配数据</label>
+                        <input type="text" name="update_req_data"  class="form-control" id="update_req_data">
+                    </div>
+					<div class="form-group">
+                        <label for="txt_statu">响应数据</label>
+                        <textarea type="text" name="update_res_data" class="form-control" id="update_res_data" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+					<button type="submit" class="btn btn-primary">保存</button>
+                </div>
+				</form>
+            </div>
+        </div>
+    </div>
+
+<!--修改弹窗-->
+
 <div class="mock-body">
 <table class="table table-striped" style="table-layout:fixed">
 	<thead>
@@ -116,7 +159,7 @@
 			<td style="font-family:Microsoft YaHei">{{mockApi.url_name}}</td>
 			<td style="font-family:Microsoft YaHei">{{mockApi.url_path}}</td>
 			<td style="font-family:Microsoft YaHei;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;">{{mockApi.req_blob}}</td>
-			<td style="font-family:Microsoft YaHei"><a id="mock_detail" href="/mock_test?listId={{mockApi.list_id}}" onclick="query({{mockApi.list_id}});return false">查看详情</a>&ensp;&ensp;<a href="#">修改</a></td>
+			<td style="font-family:Microsoft YaHei"><a id="mock_detail" href="/mock_test?listId={{mockApi.list_id}}" onclick="query({{mockApi.list_id}});return false">查看详情</a>&ensp;&ensp;<a id="update_detail" href="/mock_test/update?listId={{mockApi.list_id}}" onclick="query_update({{mockApi.list_id}});return false">修改</a></td>
 		</tr>
 
 	{% endfor %}
@@ -186,6 +229,29 @@
 			$("#mock_res_data").val(data.req_blob);
 			$("#myModal_detail").modal('show');
 		}
+		
+		//update 方法
+		function query_update(id){
+			//var detail_url = $("#mock_detail").attr("href");
+			//alert(detail_url);
+			$.ajax({
+				url:"/mock_test?listId="+id,
+				async:false,
+				type:"POST",
+				data:"",
+				success:showQuery_update
+			});
+		}
+		
+		function showQuery_update(data){
+			$("#update_url_name").val(data.url_name);
+			$("#update_url_path").val(data.url_path);
+			$("#update_req_form").val(data.req_form);
+			$("#update_req_data").val(data.req_data);
+			$("#update_res_data").val(data.req_blob);
+			$("#update_detail").modal('show');
+		}
+		
 		
 	</script>
 	{% endblock %}

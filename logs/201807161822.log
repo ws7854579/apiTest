@@ -1,0 +1,12 @@
+2018-07-16 18:22:47,877 - Method_Log - INFO - 正在获取apilist===============================================
+2018-07-16 18:22:47,927 - Method_Log - INFO - 已经获取到apilist并返回=========================
+2018-07-16 18:23:54,108 - Flask - INFO - 进入get_url
+2018-07-16 18:23:54,154 - Flask - INFO - url：test/post1
+2018-07-16 18:23:54,154 - Flask - INFO - {'res_data': None, 'url_name': u'test/post1', 'req_form': u'get', 'req_blob': '{\r\n\t"id_number": "360102198309148051",\r\n\t"interfaceUserName": "zcx_bj",\r\n\t"interfacePwd": "123456",\r\n\t"searchCname": "\xe4\xb8\xad\xe8\xaf\x9a\xe4\xbf\xa1\xe5\xbe\x81\xe4\xbf\xa1\xe6\x9c\x89\xe9\x99\x90\xe5\x85\xac\xe5\x8f\xb8",\r\n\t"name": "\xe5\xb0\xb9\xe5\xb1\xb1\xe5\xa0\xa1",\r\n\t"sign": "c17e686b80b1ad958b0a30527d6d4422",\r\n\t"telephone": "17707035513",\r\n\t"id": "1035095715305233935082038"\r\n}', 'url': u'test/post1', 'method': u'post', 'req_data': u'id_number:123'}
+2018-07-16 18:23:54,155 - Flask - INFO - test/post1
+2018-07-16 18:23:54,155 - Flask - INFO - url和path相同
+2018-07-16 18:23:54,155 - Flask - INFO - [u'id_number:123']
+2018-07-16 18:23:54,155 - Flask - INFO - ['{\r\n\t"id_number": "360102198309148051",\r\n\t"interfaceUserName": "zcx_bj",\r\n\t"interfacePwd": "123456",\r\n\t"searchCname": "\xe4\xb8\xad\xe8\xaf\x9a\xe4\xbf\xa1\xe5\xbe\x81\xe4\xbf\xa1\xe6\x9c\x89\xe9\x99\x90\xe5\x85\xac\xe5\x8f\xb8",\r\n\t"name": "\xe5\xb0\xb9\xe5\xb1\xb1\xe5\xa0\xa1",\r\n\t"sign": "c17e686b80b1ad958b0a30527d6d4422",\r\n\t"telephone": "17707035513",\r\n\t"id": "1035095715305233935082038"\r\n}']
+2018-07-16 18:23:54,155 - Flask - INFO - method==POST
+2018-07-16 18:23:54,167 - Flask - INFO - 获取请求参数:{}
+2018-07-16 18:23:54,167 - Flask - INFO - 获取数据库中存储的请求参数：123
