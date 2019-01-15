@@ -13,10 +13,10 @@ def send_mail(file_report):
     mail_body = f.read()
     f.close()
     smtpserver = 'smtp.qq.com'
-    sender = '790708124@qq.com'
-    receiver = 'sunsuwei@ccx.cn'
-    mail_user = '790708124@qq.com'
-    mail_pass = 'vdxiyoesfibdbdgf'
+    sender = 'yoursend email address'
+    receiver = 'your receive email address'
+    mail_user = 'yoursend email address'
+    mail_pass = 'password pin'
     msg = MIMEMultipart()
     text = MIMEText(mail_body,'html','utf-8')
     text['Subject'] = Header('测试报告','utf-8')
@@ -26,8 +26,8 @@ def send_mail(file_report):
     msg_file['Content-Type'] = 'application/octet-stream'
     msg_file['Content-Disposition'] = 'attachment; filename="TestReport.html"'
     msg.attach(msg_file)
-    msg['from'] = '790708124@qq.com'
-    msg['to'] = 'sunsuwei@ccx.cn'
+    msg['from'] = 'yoursend email address'
+    msg['to'] = 'your receive email address'
     try:
         smtp = smtplib.SMTP_SSL('smtp.qq.com',465)
         smtp.login(mail_user,mail_pass)
